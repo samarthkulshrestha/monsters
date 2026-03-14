@@ -1,0 +1,96 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px 64px;
+}
+
+.heading {
+  padding: 48px 0 32px;
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 32px;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--color-dark);
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.count {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-muted);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.filterGroup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.filterLabel {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--color-muted);
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filterBtn {
+  padding: 6px 14px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.filterBtn:hover {
+  background: rgba(204, 0, 0, 0.08);
+}
+
+.filterBtn.active {
+  background: var(--color-red);
+  color: #fff;
+  border-color: var(--color-red);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.empty {
+  font-size: 14px;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 40px 0;
+  text-align: center;
+}
