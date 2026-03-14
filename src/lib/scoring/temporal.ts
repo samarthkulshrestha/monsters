@@ -11,12 +11,14 @@ export function computeTemporalFactor(yearOfPrimaryAct: number, currentYear: num
 }
 
 export function computeAccountabilityFactor(
-  events: AccountabilityEvent[], harmH: number, yearOfPrimaryAct: number, currentYear: number
+  events: (AccountabilityEvent | string)[], harmH: number, yearOfPrimaryAct: number, currentYear: number
 ): number {
   if (harmH === 0) return 1.0
   const t = currentYear - yearOfPrimaryAct
   let remainingDebt = harmH * Math.exp(-GAMMA * t)
   for (const event of events) {
+    // Skip string entries (legacy format without structured data)
+    if (typeof event === 'string') continue
     const eventAge = currentYear - event.year
     remainingDebt -= event.magnitude * Math.exp(-GAMMA * eventAge)
   }
