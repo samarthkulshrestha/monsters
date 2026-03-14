@@ -66,10 +66,15 @@ describe('computeArtMerit', () => {
     expect(score).toBeLessThan(1)
   })
 
-  it('very recent works have reduced logistic factor (near 0)', () => {
-    const veryRecent = computeArtMerit(makeArt({ significance: 10, influence: 10, replaceability: 1 }), [2025], CURRENT_YEAR)
-    // culturalAge = 1, logisticFactor ≈ 1/(1+exp(-0.1*(1-20))) = 1/(1+exp(1.9)) ≈ 0.13
-    // Even max art score should be modest for very recent works
-    expect(veryRecent).toBeLessThan(0.5)
+  it('recent works score based on art quality, with modest historical bonus for old works', () => {
+    const art = makeArt({ significance: 10, influence: 10, replaceability: 1 })
+    const recent = computeArtMerit(art, [2025], CURRENT_YEAR)
+    const old = computeArtMerit(art, [1950], CURRENT_YEAR)
+    // Recent work should still score high — art quality is chronology-independent
+    expect(recent).toBeGreaterThan(0.9)
+    // Old work gets a historical embeddedness bonus
+    expect(old).toBeGreaterThan(recent)
+    // But the bonus is modest (up to 15%)
+    expect(old - recent).toBeLessThan(0.16)
   })
 })
