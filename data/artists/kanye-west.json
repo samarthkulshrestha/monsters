@@ -8,24 +8,28 @@
     {
       "description": "Series of explicit anti-Semitic statements in 2022, including 'I like Hitler' and 'I love Nazis' on Alex Jones show",
       "severity": 0.75,
-      "victim_count": 1000000,
+      "victim_count": 5,
       "duration": 0.3,
       "reversibility": 0.3,
       "power_differential": 0.7,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.5,
-      "categorical_violations": ["hate_speech"]
+      "categorical_violations": [
+        "hate_speech"
+      ]
     },
     {
       "description": "Wearing 'White Lives Matter' shirt at Paris Fashion Week; history of erratic and threatening statements toward Black public figures",
       "severity": 0.55,
-      "victim_count": 1000000,
+      "victim_count": 5,
       "duration": 0.3,
       "reversibility": 0.3,
       "power_differential": 0.6,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.5,
-      "categorical_violations": ["hate_speech"]
+      "categorical_violations": [
+        "hate_speech"
+      ]
     }
   ],
   "behavior_summary": "One of the most important musicians of the 21st century said 'I like Hitler' on national television. He has a diagnosed mental illness, which complicates the picture without excusing the words.",
@@ -38,19 +42,27 @@
     "significance": 10,
     "influence": 10,
     "replaceability": 2,
-    "notable_works": ["The College Dropout", "My Beautiful Dark Twisted Fantasy", "808s and Heartbreak"],
+    "notable_works": [
+      "The College Dropout",
+      "My Beautiful Dark Twisted Fantasy",
+      "808s and Heartbreak"
+    ],
     "summary": "Arguably the most influential musician of the 2000s. Transformed hip-hop production. 808s invented a genre. His artistic ambition and formal innovation are unquestioned.",
     "medium_aura": 0.7,
     "contamination": 0.6,
-    "separability": 0.4
+    "separability": 0.75
   },
   "modifiers": {
     "alive_and_profiting": true,
-    "victims_in_process": true
+    "victims_in_process": false
   },
   "temporal": {
     "year_of_primary_act": 2022,
-    "year_of_major_works": [2004, 2010, 2008],
+    "year_of_major_works": [
+      2004,
+      2010,
+      2008
+    ],
     "accountability_events": [
       "2022 dropped by Adidas, Gap, Balenciaga following antisemitic remarks"
     ]

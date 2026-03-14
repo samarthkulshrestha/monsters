@@ -8,24 +8,29 @@
     {
       "description": "Made pro-fascist radio broadcasts from Italy during World War II supporting Mussolini and Hitler",
       "severity": 0.85,
-      "victim_count": 1000000,
+      "victim_count": 20,
       "duration": 0.4,
       "reversibility": 0.7,
       "power_differential": 0.4,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.8,
-      "categorical_violations": ["hate_speech", "collaboration_with_oppression"]
+      "categorical_violations": [
+        "hate_speech",
+        "collaboration_with_oppression"
+      ]
     },
     {
       "description": "Virulent anti-Semitic views expressed in writings and broadcasts over decades",
       "severity": 0.75,
-      "victim_count": 1000000,
+      "victim_count": 5,
       "duration": 0.8,
       "reversibility": 0.6,
       "power_differential": 0.4,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.7,
-      "categorical_violations": ["hate_speech"]
+      "categorical_violations": [
+        "hate_speech"
+      ]
     }
   ],
   "behavior_summary": "One of the most important modernist poets made pro-fascist radio broadcasts for Mussolini and was indicted for treason by the US government. Avoided trial by being declared insane.",
@@ -38,7 +43,11 @@
     "significance": 10,
     "influence": 10,
     "replaceability": 2,
-    "notable_works": ["The Cantos", "Hugh Selwyn Mauberley", "In a Station of the Metro"],
+    "notable_works": [
+      "The Cantos",
+      "Hugh Selwyn Mauberley",
+      "In a Station of the Metro"
+    ],
     "summary": "Central architect of literary modernism. Championed Eliot, Hemingway, and Joyce. The Cantos remain one of the most ambitious poetic projects in English.",
     "medium_aura": 0.7,
     "contamination": 0.5,
@@ -50,7 +59,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1941,
-    "year_of_major_works": [1915, 1922, 1917],
+    "year_of_major_works": [
+      1915,
+      1922,
+      1917
+    ],
     "accountability_events": [
       "1945 indicted for treason",
       "1945 declared mentally unfit for trial, confined to St. Elizabeths Hospital",

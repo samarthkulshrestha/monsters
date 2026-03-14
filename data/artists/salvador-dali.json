@@ -8,13 +8,15 @@
     {
       "description": "Expressed admiration for Franco and made statements sympathetic to Hitler, though the sincerity vs. provocation is contested",
       "severity": 0.5,
-      "victim_count": 1000000,
+      "victim_count": 50,
       "duration": 0.4,
       "reversibility": 0.4,
       "power_differential": 0.4,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.5,
-      "categorical_violations": ["collaboration_with_oppression"]
+      "categorical_violations": [
+        "collaboration_with_oppression"
+      ]
     },
     {
       "description": "Exploitative control of wife and artistic partner Gala, whom he eventually confined to a castle",
@@ -23,9 +25,11 @@
       "duration": 0.7,
       "reversibility": 0.4,
       "power_differential": 0.7,
-      "relationship_proximity": 1.0,
+      "relationship_proximity": 1,
       "victim_vulnerability": 0.5,
-      "categorical_violations": ["coercion"]
+      "categorical_violations": [
+        "coercion"
+      ]
     }
   ],
   "behavior_summary": "The most famous surrealist made statements supporting Franco and Hitler that may have been genuine or may have been provocation. He was also a self-promoter of genius who called himself a genius constantly.",
@@ -38,11 +42,15 @@
     "significance": 10,
     "influence": 9,
     "replaceability": 2,
-    "notable_works": ["The Persistence of Memory", "The Sacrament of the Last Supper", "Dream Caused by the Flight of a Bee"],
+    "notable_works": [
+      "The Persistence of Memory",
+      "The Sacrament of the Last Supper",
+      "Dream Caused by the Flight of a Bee"
+    ],
     "summary": "The defining face of Surrealism. One of the most recognizable artists in history. His imagery permeated popular culture globally.",
     "medium_aura": 0.8,
     "contamination": 0.3,
-    "separability": 0.65
+    "separability": 0.7
   },
   "modifiers": {
     "alive_and_profiting": false,
@@ -50,7 +58,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1939,
-    "year_of_major_works": [1931, 1955, 1944],
+    "year_of_major_works": [
+      1931,
+      1955,
+      1944
+    ],
     "accountability_events": []
   },
   "verdict": {

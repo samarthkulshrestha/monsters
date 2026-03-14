@@ -14,7 +14,9 @@
       "power_differential": 0.5,
       "relationship_proximity": 0.2,
       "victim_vulnerability": 0.7,
-      "categorical_violations": ["coercion"]
+      "categorical_violations": [
+        "coercion"
+      ]
     }
   ],
   "behavior_summary": "Fashion icon who publicly victim-blamed Harvey Weinstein's accusers at the height of the MeToo revelations, then issued an apology.",
@@ -27,11 +29,15 @@
     "significance": 8,
     "influence": 8,
     "replaceability": 5,
-    "notable_works": ["DKNY", "Seven Easy Pieces", "Donna Karan New York collections"],
+    "notable_works": [
+      "DKNY",
+      "Seven Easy Pieces",
+      "Donna Karan New York collections"
+    ],
     "summary": "Created DKNY and defined power dressing for professional women in the 1980s and 90s. Genuinely influential in democratizing fashion.",
     "medium_aura": 0.5,
     "contamination": 0.3,
-    "separability": 0.7
+    "separability": 0.85
   },
   "modifiers": {
     "alive_and_profiting": false,
@@ -39,7 +45,11 @@
   },
   "temporal": {
     "year_of_primary_act": 2017,
-    "year_of_major_works": [1985, 1989, 1984],
+    "year_of_major_works": [
+      1985,
+      1989,
+      1984
+    ],
     "accountability_events": [
       "2017 stepped down from DKNY following controversy"
     ]

@@ -8,18 +8,20 @@
     {
       "description": "Documented fascist sympathies and active collaboration with Vichy regime; sought commissions under occupation",
       "severity": 0.75,
-      "victim_count": 1000000,
+      "victim_count": 50,
       "duration": 0.4,
       "reversibility": 0.6,
       "power_differential": 0.5,
       "relationship_proximity": 0.2,
       "victim_vulnerability": 0.7,
-      "categorical_violations": ["collaboration_with_oppression"]
+      "categorical_violations": [
+        "collaboration_with_oppression"
+      ]
     },
     {
       "description": "Proposed demolishing central Paris to build his Voisin Plan — ordered concrete towers replacing historic neighborhoods",
       "severity": 0.5,
-      "victim_count": 100000,
+      "victim_count": 30,
       "duration": 0.3,
       "reversibility": 0.3,
       "power_differential": 0.4,
@@ -38,7 +40,11 @@
     "significance": 10,
     "influence": 10,
     "replaceability": 1,
-    "notable_works": ["Villa Savoye", "Unité d'Habitation", "Chandigarh"],
+    "notable_works": [
+      "Villa Savoye",
+      "Unité d'Habitation",
+      "Chandigarh"
+    ],
     "summary": "Essentially invented modernist architecture. Every glass tower and open-plan apartment in the world is his legacy. The most copied architect in history.",
     "medium_aura": 0.6,
     "contamination": 0.4,
@@ -50,7 +56,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1941,
-    "year_of_major_works": [1929, 1952, 1950],
+    "year_of_major_works": [
+      1929,
+      1952,
+      1950
+    ],
     "accountability_events": []
   },
   "verdict": {

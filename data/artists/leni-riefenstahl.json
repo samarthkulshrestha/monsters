@@ -8,13 +8,16 @@
     {
       "description": "Directed Triumph of the Will (1935), the definitive Nazi propaganda film glorifying Hitler",
       "severity": 0.9,
-      "victim_count": 1000000,
+      "victim_count": 20,
       "duration": 0.3,
       "reversibility": 0.9,
       "power_differential": 0.8,
       "relationship_proximity": 0.3,
       "victim_vulnerability": 0.8,
-      "categorical_violations": ["collaboration_with_oppression", "hate_speech"]
+      "categorical_violations": [
+        "collaboration_with_oppression",
+        "hate_speech"
+      ]
     },
     {
       "description": "Used Romani concentration camp prisoners as unpaid extras in her film Tiefland",
@@ -24,8 +27,12 @@
       "reversibility": 0.9,
       "power_differential": 0.9,
       "relationship_proximity": 0.5,
-      "victim_vulnerability": 1.0,
-      "categorical_violations": ["collaboration_with_oppression", "coercion", "fraud_or_theft"]
+      "victim_vulnerability": 1,
+      "categorical_violations": [
+        "collaboration_with_oppression",
+        "coercion",
+        "fraud_or_theft"
+      ]
     },
     {
       "description": "Close personal relationship with Hitler and Goebbels; lifelong denial of Nazi complicity",
@@ -36,7 +43,9 @@
       "power_differential": 0.5,
       "relationship_proximity": 0.9,
       "victim_vulnerability": 0.4,
-      "categorical_violations": ["collaboration_with_oppression"]
+      "categorical_violations": [
+        "collaboration_with_oppression"
+      ]
     }
   ],
   "behavior_summary": "Made the most effective propaganda film in history for the Third Reich. Used concentration camp prisoners as film extras. Denied culpability until she died at 101.",
@@ -49,7 +58,11 @@
     "significance": 9,
     "influence": 9,
     "replaceability": 2,
-    "notable_works": ["Triumph of the Will", "Olympia", "The Blue Light"],
+    "notable_works": [
+      "Triumph of the Will",
+      "Olympia",
+      "The Blue Light"
+    ],
     "summary": "Technically revolutionary filmmaker whose innovations in documentary and sports cinematography are still taught in film schools — alongside the context of what she used those skills to do.",
     "medium_aura": 0.4,
     "contamination": 0.9,
@@ -61,7 +74,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1935,
-    "year_of_major_works": [1932, 1935, 1938],
+    "year_of_major_works": [
+      1932,
+      1935,
+      1938
+    ],
     "accountability_events": [
       "1948 denazification court classified her as a 'fellow traveller'",
       "2003 died at age 101, still denying full complicity"

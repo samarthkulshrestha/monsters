@@ -8,24 +8,30 @@
     {
       "description": "Wrote Das Judenthum in der Musik, a virulent anti-Semitic essay attacking Jewish composers",
       "severity": 0.7,
-      "victim_count": 1000000,
+      "victim_count": 20,
       "duration": 0.5,
       "reversibility": 0.8,
       "power_differential": 0.6,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.7,
-      "categorical_violations": ["hate_speech", "collaboration_with_oppression"]
+      "categorical_violations": [
+        "hate_speech",
+        "collaboration_with_oppression"
+      ]
     },
     {
       "description": "His work and writings were instrumentalized as foundational to Nazi ideology; Hitler was a devoted Wagnerian",
       "severity": 0.8,
-      "victim_count": 1000000,
+      "victim_count": 20,
       "duration": 0.9,
       "reversibility": 0.7,
       "power_differential": 0.5,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.8,
-      "categorical_violations": ["hate_speech", "collaboration_with_oppression"]
+      "categorical_violations": [
+        "hate_speech",
+        "collaboration_with_oppression"
+      ]
     }
   ],
   "behavior_summary": "The most influential opera composer in history was also a virulent anti-Semite whose writings and ideology became pillars of Nazi culture. Hitler visited Bayreuth obsessively.",
@@ -38,11 +44,15 @@
     "significance": 10,
     "influence": 10,
     "replaceability": 1,
-    "notable_works": ["The Ring Cycle", "Tristan und Isolde", "Parsifal"],
+    "notable_works": [
+      "The Ring Cycle",
+      "Tristan und Isolde",
+      "Parsifal"
+    ],
     "summary": "Transformed opera permanently. Invented leitmotif. His influence on music, drama, cinema, and philosophy is without equal. Also Hitler's favorite composer.",
     "medium_aura": 0.9,
     "contamination": 0.6,
-    "separability": 0.4
+    "separability": 0.5
   },
   "modifiers": {
     "alive_and_profiting": false,
@@ -50,7 +60,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1850,
-    "year_of_major_works": [1876, 1865, 1882],
+    "year_of_major_works": [
+      1876,
+      1865,
+      1882
+    ],
     "accountability_events": []
   },
   "verdict": {

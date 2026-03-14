@@ -8,13 +8,16 @@
     {
       "description": "Longtime board member of National Organization for Marriage; extensive advocacy against same-sex marriage and LGBTQ+ rights",
       "severity": 0.55,
-      "victim_count": 1000000,
+      "victim_count": 20,
       "duration": 0.7,
       "reversibility": 0.4,
       "power_differential": 0.5,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.7,
-      "categorical_violations": ["hate_speech", "collaboration_with_oppression"]
+      "categorical_violations": [
+        "hate_speech",
+        "collaboration_with_oppression"
+      ]
     }
   ],
   "behavior_summary": "Author of Ender's Game, one of the most celebrated sci-fi novels ever written, has spent decades as an active advocate against LGBTQ+ rights and same-sex marriage.",
@@ -27,19 +30,27 @@
     "significance": 9,
     "influence": 8,
     "replaceability": 4,
-    "notable_works": ["Ender's Game", "Speaker for the Dead", "Ender's Shadow"],
+    "notable_works": [
+      "Ender's Game",
+      "Speaker for the Dead",
+      "Ender's Shadow"
+    ],
     "summary": "Ender's Game is one of the most read science fiction novels in history, particularly formative for young readers. Won both Hugo and Nebula awards.",
     "medium_aura": 0.6,
     "contamination": 0.45,
-    "separability": 0.5
+    "separability": 0.75
   },
   "modifiers": {
     "alive_and_profiting": true,
-    "victims_in_process": true
+    "victims_in_process": false
   },
   "temporal": {
     "year_of_primary_act": 2004,
-    "year_of_major_works": [1985, 1986, 1999],
+    "year_of_major_works": [
+      1985,
+      1986,
+      1999
+    ],
     "accountability_events": []
   },
   "verdict": {

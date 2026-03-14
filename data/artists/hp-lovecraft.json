@@ -8,13 +8,15 @@
     {
       "description": "Wrote explicitly racist poetry and prose; held extreme white supremacist views expressed throughout his work",
       "severity": 0.65,
-      "victim_count": 1000000,
+      "victim_count": 5,
       "duration": 0.8,
       "reversibility": 0.6,
       "power_differential": 0.4,
       "relationship_proximity": 0.1,
       "victim_vulnerability": 0.6,
-      "categorical_violations": ["hate_speech"]
+      "categorical_violations": [
+        "hate_speech"
+      ]
     }
   ],
   "behavior_summary": "Foundational horror writer whose racism was not incidental but central to his creative vision. The monsters in his stories are frequently metaphors for racial anxiety.",
@@ -27,7 +29,11 @@
     "significance": 9,
     "influence": 10,
     "replaceability": 3,
-    "notable_works": ["The Call of Cthulhu", "At the Mountains of Madness", "The Shadow over Innsmouth"],
+    "notable_works": [
+      "The Call of Cthulhu",
+      "At the Mountains of Madness",
+      "The Shadow over Innsmouth"
+    ],
     "summary": "Invented cosmic horror. His concepts of unknowable cosmic evil have influenced virtually every horror writer since. Cthulhu has become a cultural shorthand.",
     "medium_aura": 0.7,
     "contamination": 0.5,
@@ -39,7 +45,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1920,
-    "year_of_major_works": [1926, 1931, 1936],
+    "year_of_major_works": [
+      1926,
+      1931,
+      1936
+    ],
     "accountability_events": [
       "2015 World Fantasy Award removed his likeness from the trophy"
     ]

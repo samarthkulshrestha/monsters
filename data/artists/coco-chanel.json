@@ -8,14 +8,16 @@
     {
       "description": "Worked as a Nazi intelligence agent (codename 'Westminster') during WWII occupation of Paris",
       "severity": 0.9,
-      "victim_count": 1000000,
+      "victim_count": 50,
       "duration": 0.5,
       "reversibility": 0.8,
       "power_differential": 0.5,
       "relationship_proximity": 0.2,
       "victim_vulnerability": 0.8,
-      "categorical_violations": ["collaboration_with_oppression"]
-      },
+      "categorical_violations": [
+        "collaboration_with_oppression"
+      ]
+    },
     {
       "description": "Used Nazi Aryanization laws to try to seize business assets from Jewish business partners",
       "severity": 0.85,
@@ -25,7 +27,10 @@
       "power_differential": 0.8,
       "relationship_proximity": 0.5,
       "victim_vulnerability": 0.9,
-      "categorical_violations": ["collaboration_with_oppression", "fraud_or_theft"]
+      "categorical_violations": [
+        "collaboration_with_oppression",
+        "fraud_or_theft"
+      ]
     },
     {
       "description": "Romantic relationship with Nazi officer Baron Hans Günther von Dincklage throughout the occupation",
@@ -36,7 +41,9 @@
       "power_differential": 0.4,
       "relationship_proximity": 0.9,
       "victim_vulnerability": 0.3,
-      "categorical_violations": ["collaboration_with_oppression"]
+      "categorical_violations": [
+        "collaboration_with_oppression"
+      ]
     }
   ],
   "behavior_summary": "Collaborated with Nazi occupiers in Paris, worked as a Nazi spy, and used Aryanization laws to steal her Jewish business partners' assets. The brand has never fully reckoned with this.",
@@ -49,7 +56,11 @@
     "significance": 10,
     "influence": 10,
     "replaceability": 1,
-    "notable_works": ["Chanel No. 5", "The Little Black Dress", "Chanel suit"],
+    "notable_works": [
+      "Chanel No. 5",
+      "The Little Black Dress",
+      "Chanel suit"
+    ],
     "summary": "Liberated women's fashion from corsets. Created some of the most iconic garments and fragrances in history. Essentially invented modern fashion.",
     "medium_aura": 0.7,
     "contamination": 0.6,
@@ -61,7 +72,11 @@
   },
   "temporal": {
     "year_of_primary_act": 1941,
-    "year_of_major_works": [1921, 1926, 1954],
+    "year_of_major_works": [
+      1921,
+      1926,
+      1954
+    ],
     "accountability_events": [
       "1945 arrested and questioned, released without charges",
       "Fled to Switzerland with Nazi lover"
