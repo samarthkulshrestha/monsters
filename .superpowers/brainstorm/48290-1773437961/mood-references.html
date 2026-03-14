@@ -1,0 +1,114 @@
+<h2>What mood are we chasing?</h2>
+<p class="subtitle">Don't think about the layout — just which <em>feeling</em> matches what's in your head</p>
+
+<div class="cards" data-multiselect>
+  <div class="card" data-choice="retro-govt" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #fffff0; padding: 28px; font-family: 'Courier New', monospace;">
+      <div style="text-align: center; border: 2px solid #333; padding: 16px; margin-bottom: 12px;">
+        <div style="font-size: 10px; letter-spacing: 6px; text-transform: uppercase; color: #333; margin-bottom: 4px;">DEPARTMENT OF</div>
+        <div style="font-size: 18px; font-weight: bold; color: #000; letter-spacing: 2px;">MORAL ASSESSMENT</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px;">FORM 27-B &middot; ARTIST EVALUATION</div>
+      </div>
+      <div style="font-size: 11px; color: #333; line-height: 1.8;">
+        <div>SUBJECT: <span style="border-bottom: 1px solid #333; padding: 0 40px;">Polanski, R.</span></div>
+        <div>CLASSIFICATION: <span style="border-bottom: 1px solid #333; padding: 0 20px;">MONSTER</span></div>
+        <div>STATUS: <span style="color: red; font-weight: bold;">██ REDACTED ██</span></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Bureaucratic Absurdism</h3>
+      <p>Government forms, redacted text, official stamps. Ethics as paperwork. Kafka meets the DMV. "We've processed your moral inquiry."</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="tabloid" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #fff; padding: 28px;">
+      <div style="font-family: Impact, sans-serif; text-align: center;">
+        <div style="background: #ff0000; color: white; font-size: 22px; padding: 6px 12px; display: inline-block; margin-bottom: 8px; transform: rotate(-1deg);">MONSTERS CALC</div>
+        <div style="font-size: 28px; color: #000; line-height: 1.1; margin-bottom: 8px; text-transform: uppercase;">POLANSKI: Can You Still Watch Chinatown?</div>
+        <div style="font-family: Georgia, serif; font-size: 12px; color: #666; font-style: italic; border-top: 3px solid #000; border-bottom: 1px solid #ccc; padding: 6px 0;">Our calculator says: probably not, but you will anyway</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Tabloid / Sensationalist</h3>
+      <p>Bold headlines, screaming type, trashy energy. Leans into the spectacle of moral judgment. The guilt is part of the entertainment.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="confessional" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #1a1a2e; padding: 28px; font-family: Georgia, serif;">
+      <div style="color: #e0d5c1; text-align: center;">
+        <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #8a7f6e; margin-bottom: 16px;">Forgive me, for I have streamed</div>
+        <div style="font-size: 24px; font-style: italic; margin-bottom: 8px; color: #f0e6d3;">Roman Polanski</div>
+        <div style="width: 40px; height: 1px; background: #8a7f6e; margin: 12px auto;"></div>
+        <div style="font-size: 13px; color: #8a7f6e; line-height: 1.6; max-width: 280px; margin: 0 auto;">You already know what he did. You already know the films are brilliant. So why are you here? Absolution? We don't do that.</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Confessional / Church</h3>
+      <p>Dark, intimate, religious undertones. You're confessing your consumption. Stained glass meets moral reckoning. "Forgive me, for I have streamed."</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="clinical" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #f8f8f8; padding: 28px; font-family: -apple-system, sans-serif;">
+      <div style="border-left: 4px solid #cc0000; padding-left: 16px; margin-bottom: 16px;">
+        <div style="font-size: 10px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Patient File #0042</div>
+        <div style="font-size: 20px; color: #222; font-weight: 600;">Polanski, Roman</div>
+        <div style="font-size: 12px; color: #666;">Diagnosis: Genius. Prognosis: Monster.</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 11px;">
+        <div style="background: #fff; border: 1px solid #e0e0e0; padding: 10px; border-radius: 4px;">
+          <div style="color: #999; font-size: 9px; text-transform: uppercase;">Severity</div>
+          <div style="color: #cc0000; font-weight: 600;">CRITICAL</div>
+        </div>
+        <div style="background: #fff; border: 1px solid #e0e0e0; padding: 10px; border-radius: 4px;">
+          <div style="color: #999; font-size: 9px; text-transform: uppercase;">Cultural Value</div>
+          <div style="color: #007700; font-weight: 600;">EXCEPTIONAL</div>
+        </div>
+      </div>
+      <div style="margin-top: 12px; padding: 10px; background: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; font-size: 11px; color: #856404;">
+        ⚠ WARNING: Consumption of this artist's work may cause moral discomfort
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Clinical / Medical</h3>
+      <p>Patient files, diagnoses, warning labels. Treats moral failing as a condition to be assessed. Detached, scientific, darkly funny in its precision.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="oldweb" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #c0c0c0; padding: 28px; font-family: 'MS Sans Serif', Tahoma, sans-serif;">
+      <div style="background: #000080; color: #fff; padding: 4px 8px; font-size: 12px; font-weight: bold; margin-bottom: 8px;">🎭 Monsters Calculator v1.0</div>
+      <div style="background: #fff; border: 2px inset #ccc; padding: 12px; font-size: 12px;">
+        <div style="margin-bottom: 8px;">Enter artist name:</div>
+        <div style="background: #fff; border: 2px inset #888; padding: 4px 6px; margin-bottom: 12px; font-size: 12px;">Roman Polanski</div>
+        <div style="background: #c0c0c0; border: 2px outset #fff; padding: 4px 16px; display: inline-block; font-size: 12px; cursor: pointer; text-align: center;">Calculate Sin Score</div>
+      </div>
+      <div style="margin-top: 8px; font-size: 11px; color: #000;">
+        <marquee>⚠️ This artist has been flagged. Proceed with caution. ⚠️</marquee>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Retro Web / Windows 95</h3>
+      <p>Old-school internet aesthetic. Geocities energy, janky UI, marquee tags. The absurdity of the medium matches the absurdity of quantifying morality.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="editorial" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #000; padding: 28px;">
+      <div style="font-family: 'Helvetica Neue', sans-serif; color: #fff; text-align: center;">
+        <div style="font-size: 9px; letter-spacing: 6px; text-transform: uppercase; color: #666; margin-bottom: 20px;">Vol. I &middot; No. 42</div>
+        <div style="font-size: 36px; font-weight: 100; letter-spacing: -1px; line-height: 1.1; margin-bottom: 8px;">Roman<br>Polanski</div>
+        <div style="width: 60px; height: 2px; background: #ff3333; margin: 16px auto;"></div>
+        <div style="font-size: 11px; color: #999; line-height: 1.6; max-width: 240px; margin: 0 auto;">The art is extraordinary.<br>The man is unforgivable.<br>The score is 34.</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Editorial / Magazine</h3>
+      <p>High-contrast, typographic, magazine cover energy. Lots of whitespace, dramatic type. Treats each artist like a cover story. Bold but restrained.</p>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top: 24px;">Select as many as resonate — even partial vibes help. You can also just tell me in the terminal what's <em>not</em> right about any of these.</p>

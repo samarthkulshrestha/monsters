@@ -1,0 +1,2 @@
+[    3015ms] [ERROR] No options defined for block  @ https://www.nan.xyz/wp-content/themes/nan/assets/js/nan.js?ver=2.11.1b:7677
+[    3306ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://www.nan.xyz/wp-content/themes/nan/assets/js/nan.js?ver=2.11.1b:29070

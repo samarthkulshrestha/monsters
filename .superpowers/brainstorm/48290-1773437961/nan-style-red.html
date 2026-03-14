@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #ffe0e0;
+    color: #1a0000;
+    font-family: 'Space Mono', monospace;
+    min-height: 100vh;
+  }
+
+  /* Nav */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    border-bottom: 2px solid #cc0000;
+  }
+
+  .logo {
+    background: #cc0000;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 6px 14px;
+    letter-spacing: 2px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .nav-links span { cursor: pointer; }
+  .nav-links span:hover { color: #cc0000; }
+
+  /* Hero */
+  .hero {
+    padding: 60px 32px 40px;
+    max-width: 1100px;
+  }
+
+  .hero-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 42px;
+    line-height: 1.35;
+    color: #330000;
+  }
+
+  .hero-text em {
+    font-style: normal;
+    color: #cc0000;
+  }
+
+  /* Section divider */
+  .section-label {
+    padding: 20px 32px;
+    border-top: 2px solid #cc0000;
+    border-bottom: 1px solid rgba(204,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #990000;
+  }
+
+  /* Artist card */
+  .artist-card {
+    padding: 48px 32px;
+    max-width: 1100px;
+  }
+
+  .artist-domain {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+
+  .artist-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 0.95;
+    color: #1a0000;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+  }
+
+  .artist-works {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    color: #660000;
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+
+  /* Scores */
+  .scores {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 40px;
+  }
+
+  .score-block {
+    flex: 1;
+  }
+
+  .score-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #990000;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #cc0000;
+  }
+
+  .score-number {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .score-monster .score-number { color: #cc0000; }
+  .score-art .score-number { color: #1a0000; }
+
+  .score-desc {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: #660000;
+    line-height: 1.5;
+  }
+
+  /* Verdict */
+  .verdict {
+    background: #cc0000;
+    padding: 28px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -32px;
+    width: calc(100% + 64px);
+  }
+
+  .verdict-left {
+    color: rgba(255,255,255,0.7);
+  }
+
+  .verdict-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  .verdict-blurb {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 6px;
+    max-width: 500px;
+    line-height: 1.5;
+  }
+
+  .verdict-score {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+  }
+
+  /* Factor breakdown */
+  .factors {
+    padding: 40px 32px;
+    max-width: 1100px;
+  }
+
+  .factors-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #990000;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #cc0000;
+  }
+
+  .factor-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(204,0,0,0.15);
+  }
+
+  .factor-name {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+    flex-shrink: 0;
+  }
+
+  .factor-bar-bg {
+    flex: 1;
+    height: 8px;
+    background: rgba(204,0,0,0.1);
+    margin: 0 16px;
+    position: relative;
+  }
+
+  .factor-bar {
+    height: 100%;
+    background: #cc0000;
+  }
+
+  .factor-value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: 40px;
+    text-align: right;
+    color: #1a0000;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 2px solid #cc0000;
+    padding: 20px 32px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #990000;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">MONSTERS</div>
+  <div class="nav-links">
+    <span>Search</span>
+    <span>Browse</span>
+    <span>About</span>
+    <span>Methodology</span>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-text">
+    Should you consume the art of <em>terrible people</em>? We did the math, so you don't have to. (You're welcome.) (You're not forgiven.)
+  </div>
+</div>
+
+<div class="section-label">
+  <span>Artist Assessment</span>
+  <span>No. 042</span>
+</div>
+
+<div class="artist-card">
+  <div class="artist-domain">Film &middot; Director</div>
+  <div class="artist-name">ROMAN<br>POLANSKI</div>
+  <div class="artist-works">Chinatown &middot; The Pianist &middot; Rosemary's Baby</div>
+
+  <div class="scores">
+    <div class="score-block score-monster">
+      <div class="score-label">The Monster</div>
+      <div class="score-number">8.0</div>
+      <div class="score-desc">Convicted. Fled sentencing.<br>Multiple allegations spanning decades.</div>
+    </div>
+    <div class="score-block score-art">
+      <div class="score-label">The Art</div>
+      <div class="score-number">8.7</div>
+      <div class="score-desc">Genre-defining. Oscar-winning.<br>Singular voice in psychological horror.</div>
+    </div>
+  </div>
+
+  <div class="verdict">
+    <div class="verdict-left">
+      <div class="verdict-label">Consumability Index</div>
+      <div class="verdict-blurb">The art is undeniably masterful. The man is undeniably a monster. He's still out there, living well. Every stream is a vote. You do the math.</div>
+    </div>
+    <div class="verdict-score">34</div>
+  </div>
+</div>
+
+<div class="factors">
+  <div class="factors-title">Factor Breakdown</div>
+  <div class="factor-row">
+    <div class="factor-name">Severity</div>
+    <div class="factor-bar-bg"><div class="factor-bar" style="width: 90%"></div></div>
+    <div class="factor-value">9</div>
+  </div>
+  <div class="factor-row">
+    <div class="factor-name">Pattern</div>
+    <div class="factor-bar-bg"><div class="factor-bar" style="width: 70%"></div></div>
+    <div class="factor-value">7</div>
+  </div>
+  <div class="factor-row">
+    <div class="factor-name">Accountability</div>
+    <div class="factor-bar-bg"><div class="factor-bar" style="width: 20%"></div></div>
+    <div class="factor-value">2</div>
+  </div>
+  <div class="factor-row">
+    <div class="factor-name">Significance</div>
+    <div class="factor-bar-bg"><div class="factor-bar" style="width: 90%"></div></div>
+    <div class="factor-value">9</div>
+  </div>
+  <div class="factor-row">
+    <div class="factor-name">Influence</div>
+    <div class="factor-bar-bg"><div class="factor-bar" style="width: 80%"></div></div>
+    <div class="factor-value">8</div>
+  </div>
+  <div class="factor-row">
+    <div class="factor-name">Replaceability</div>
+    <div class="factor-bar-bg"><div class="factor-bar" style="width: 30%"></div></div>
+    <div class="factor-value">3</div>
+  </div>
+</div>
+
+<footer>
+  <span>Inspired by Claire Dederer's "Monsters"</span>
+  <span>&copy; 2026</span>
+</footer>
+
+</body>
+</html>

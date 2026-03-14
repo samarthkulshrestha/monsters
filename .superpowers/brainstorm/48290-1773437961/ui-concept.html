@@ -1,0 +1,89 @@
+<h2>UI Concept: How should the app feel?</h2>
+<p class="subtitle">The overall experience when you land on the site and look up an artist</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #0a0a0a; padding: 32px; font-family: monospace;">
+      <div style="color: #ff3333; font-size: 14px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px;">THE MONSTERS CALCULATOR</div>
+      <div style="background: #111; border: 1px solid #222; border-radius: 8px; padding: 20px; margin-bottom: 16px;">
+        <div style="color: #666; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">Search an artist</div>
+        <div style="color: #fff; font-size: 18px; border-bottom: 1px solid #333; padding-bottom: 8px;">Roman Polanski</div>
+      </div>
+      <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+        <div style="flex:1; background: #1a0000; border: 1px solid #330000; border-radius: 6px; padding: 12px; text-align: center;">
+          <div style="color: #ff4444; font-size: 24px; font-weight: bold;">8.0</div>
+          <div style="color: #663333; font-size: 10px; text-transform: uppercase;">Monster</div>
+        </div>
+        <div style="flex:1; background: #001a00; border: 1px solid #003300; border-radius: 6px; padding: 12px; text-align: center;">
+          <div style="color: #44ff44; font-size: 24px; font-weight: bold;">8.7</div>
+          <div style="color: #336633; font-size: 10px; text-transform: uppercase;">Art</div>
+        </div>
+      </div>
+      <div style="background: #111; border-radius: 6px; padding: 12px; text-align: center;">
+        <div style="color: #ff8800; font-size: 28px; font-weight: bold;">34</div>
+        <div style="color: #664400; font-size: 10px; text-transform: uppercase; letter-spacing: 2px;">Consumability Index</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. Dark & Stark</h3>
+      <p>Black background, monospace type, red accents. Feels like a classified document or a confession booth. The darkness mirrors the moral weight.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #f5f0e8; padding: 32px; font-family: Georgia, serif;">
+      <div style="color: #8b0000; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; border-bottom: 2px solid #8b0000; padding-bottom: 8px;">The Monsters Calculator</div>
+      <div style="margin-bottom: 16px;">
+        <div style="color: #666; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">Artist</div>
+        <div style="color: #222; font-size: 22px; font-style: italic;">Roman Polanski</div>
+        <div style="color: #999; font-size: 12px;">Film &middot; Director</div>
+      </div>
+      <div style="display: flex; gap: 16px; margin-bottom: 16px;">
+        <div style="flex:1; border-left: 3px solid #8b0000; padding-left: 12px;">
+          <div style="color: #8b0000; font-size: 22px; font-weight: bold;">8.0</div>
+          <div style="color: #999; font-size: 11px;">The Monster</div>
+        </div>
+        <div style="flex:1; border-left: 3px solid #2e5d3a; padding-left: 12px;">
+          <div style="color: #2e5d3a; font-size: 22px; font-weight: bold;">8.7</div>
+          <div style="color: #999; font-size: 11px;">The Art</div>
+        </div>
+      </div>
+      <div style="background: #ece5d5; border-radius: 4px; padding: 14px; text-align: center; border: 1px solid #d4cbb8;">
+        <div style="color: #b8860b; font-size: 26px; font-weight: bold; font-family: Georgia;">34</div>
+        <div style="color: #8b7d6b; font-size: 10px; text-transform: uppercase; letter-spacing: 2px;">Consumability Index</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. Literary & Warm</h3>
+      <p>Cream/parchment tones, serif typography. Feels like an essay or book review. Nods to Dederer's literary roots. Sophisticated but approachable.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #ffffff; padding: 32px; font-family: -apple-system, sans-serif;">
+      <div style="color: #000; font-size: 14px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 16px;">monsters<span style="color: #e00;">.</span>calc</div>
+      <div style="margin-bottom: 16px;">
+        <div style="color: #000; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;">Roman Polanski</div>
+        <div style="display: inline-block; background: #f0f0f0; color: #666; font-size: 11px; padding: 2px 8px; border-radius: 99px; margin-top: 4px;">FILM</div>
+      </div>
+      <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+        <div style="flex:1; background: #fff0f0; border-radius: 12px; padding: 14px; text-align: center;">
+          <div style="color: #e00; font-size: 28px; font-weight: 800;">8.0</div>
+          <div style="color: #e00; font-size: 10px; font-weight: 600; text-transform: uppercase;">Monster</div>
+        </div>
+        <div style="flex:1; background: #f0fff0; border-radius: 12px; padding: 14px; text-align: center;">
+          <div style="color: #0a0; font-size: 28px; font-weight: 800;">8.7</div>
+          <div style="color: #0a0; font-size: 10px; font-weight: 600; text-transform: uppercase;">Art</div>
+        </div>
+      </div>
+      <div style="background: linear-gradient(135deg, #ff6b00, #ff3300); border-radius: 12px; padding: 14px; text-align: center;">
+        <div style="color: #fff; font-size: 32px; font-weight: 800;">34</div>
+        <div style="color: rgba(255,255,255,0.8); font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Consumability</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. Clean & Modern</h3>
+      <p>White background, bold sans-serif, bright color pops. Feels like a modern web tool. Accessible and shareable, but maybe too friendly for the subject matter.</p>
+    </div>
+  </div>
+</div>
