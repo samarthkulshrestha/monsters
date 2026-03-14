@@ -1,0 +1,10 @@
+.footer {
+  border-top: 2px solid var(--color-red);
+  padding: 20px 32px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-muted);
+  display: flex;
+  justify-content: space-between;
+}
