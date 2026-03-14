@@ -1,0 +1,39 @@
+.verdict {
+  background: var(--color-red);
+  padding: 28px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.left {
+  flex: 1;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.blurb {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.scoreNumber {
+  font-family: var(--font-display);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: -3px;
+  flex-shrink: 0;
+}
