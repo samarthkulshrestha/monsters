@@ -1,0 +1,75 @@
+{
+  "id": "gary-glitter",
+  "name": "Gary Glitter",
+  "domain": "music",
+  "sub_domain": "Glam Rock Singer",
+  "portrait": "gary-glitter.jpg",
+  "acts": [
+    {
+      "description": "Convicted in Vietnam of committing obscene acts with girls aged 10 and 11",
+      "severity": 1.0,
+      "victim_count": 2,
+      "duration": 0.3,
+      "reversibility": 1.0,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    },
+    {
+      "description": "UK conviction for downloading 4,000 images of child abuse including Category A material",
+      "severity": 0.95,
+      "victim_count": 1,
+      "duration": 0.5,
+      "reversibility": 0.8,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    },
+    {
+      "description": "UK 2015 conviction for sexual offences against girls aged 8–13 during 1970s glam rock era",
+      "severity": 1.0,
+      "victim_count": 4,
+      "duration": 0.6,
+      "reversibility": 1.0,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Multiple convictions for child sexual abuse across multiple countries. Not an allegation — a sustained, proven pattern of predation against children as young as eight.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.01,
+    "consistency": 0.98
+  },
+  "art": {
+    "significance": 5,
+    "influence": 6,
+    "replaceability": 7,
+    "notable_works": ["Rock and Roll Part 2", "I'm the Leader of the Gang", "Do You Wanna Touch Me"],
+    "summary": "1970s glam rock figure whose songs became ubiquitous sports anthems. Musically unremarkable beyond their cultural footprint.",
+    "medium_aura": 0.3,
+    "contamination": 1.0,
+    "separability": 0.05
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1975,
+    "year_of_major_works": [1972, 1973, 1984],
+    "accountability_events": [
+      "1999 convicted in UK for child pornography",
+      "2006 convicted in Vietnam for child abuse",
+      "2015 convicted in UK of historic child sex offences, sentenced to 16 years"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Rock and Roll Part 2 plays at every sports stadium in America while its author serves a 16-year sentence for raping children as young as eight. There is genuinely no reason to ever play this song again. None."
+  }
+}

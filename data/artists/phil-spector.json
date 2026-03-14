@@ -1,0 +1,63 @@
+{
+  "id": "phil-spector",
+  "name": "Phil Spector",
+  "domain": "music",
+  "sub_domain": "Producer",
+  "portrait": "phil-spector.jpg",
+  "acts": [
+    {
+      "description": "Convicted of second-degree murder of actress Lana Clarkson in 2003",
+      "severity": 1.0,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 1.0,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    },
+    {
+      "description": "History of threatening behavior with firearms, reported by multiple artists he worked with",
+      "severity": 0.75,
+      "victim_count": 10,
+      "duration": 0.7,
+      "reversibility": 0.5,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["violence", "coercion"]
+    }
+  ],
+  "behavior_summary": "Invented the Wall of Sound production technique. Also shot and killed a woman in his mansion. Died in prison in 2021.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Be My Baby", "River Deep Mountain High", "Let It Be"],
+    "summary": "Invented the Wall of Sound. Produced some of the most influential records in pop history. A foundational genius of recorded music.",
+    "medium_aura": 0.4,
+    "contamination": 0.7,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2003,
+    "year_of_major_works": [1963, 1966, 1970],
+    "accountability_events": [
+      "2009 convicted of second-degree murder",
+      "2021 died in prison of COVID-19"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He made Ronnie Spector wear a wig of his ex-wife's hair and wouldn't let her leave the house. Then he shot someone. The Wall of Sound is extraordinary. The man who built it was a violent captor and a murderer. He died in prison. The records live on."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "john-lennon",
+  "name": "John Lennon",
+  "domain": "music",
+  "sub_domain": "Singer-Songwriter",
+  "portrait": "john-lennon.jpg",
+  "acts": [
+    {
+      "description": "Publicly admitted hitting women in relationships in interviews and songs, including first wife Cynthia",
+      "severity": 0.6,
+      "victim_count": 2,
+      "duration": 0.5,
+      "reversibility": 0.4,
+      "power_differential": 0.7,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["violence"]
+    },
+    {
+      "description": "Absent and neglectful to first son Julian Lennon; emotional cruelty documented in son's accounts",
+      "severity": 0.45,
+      "victim_count": 1,
+      "duration": 0.6,
+      "reversibility": 0.4,
+      "power_differential": 1.0,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": []
+    }
+  ],
+  "behavior_summary": "Peace activist who admitted to hitting women. The man who wrote Imagine neglected his first son and treated his first wife cruelly. His sainthood in popular culture obscures a more complicated record.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.4,
+    "consistency": 0.4
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Imagine", "Come Together", "A Day in the Life"],
+    "summary": "Co-founder of The Beatles, the most important band in rock history. His solo work, particularly Imagine, achieved iconic status as a peace anthem.",
+    "medium_aura": 0.9,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1963,
+    "year_of_major_works": [1967, 1971, 1969],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He admitted to hitting women and the world put him on the peace movement's mantelpiece. Imagine plays at every vigil and memorial while his first son Julian still gives interviews about what an absent father he was. Give Peace a Chance. Give Julian a call."
+  }
+}

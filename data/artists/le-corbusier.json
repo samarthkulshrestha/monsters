@@ -1,0 +1,60 @@
+{
+  "id": "le-corbusier",
+  "name": "Le Corbusier",
+  "domain": "architecture",
+  "sub_domain": "Architect",
+  "portrait": "le-corbusier.jpg",
+  "acts": [
+    {
+      "description": "Documented fascist sympathies and active collaboration with Vichy regime; sought commissions under occupation",
+      "severity": 0.75,
+      "victim_count": 1000000,
+      "duration": 0.4,
+      "reversibility": 0.6,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.2,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["collaboration_with_oppression"]
+    },
+    {
+      "description": "Proposed demolishing central Paris to build his Voisin Plan — ordered concrete towers replacing historic neighborhoods",
+      "severity": 0.5,
+      "victim_count": 100000,
+      "duration": 0.3,
+      "reversibility": 0.3,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": []
+    }
+  ],
+  "behavior_summary": "The most influential architect of the 20th century had documented fascist sympathies and sought work under the Vichy regime. Also wanted to demolish Paris.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.55
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Villa Savoye", "Unité d'Habitation", "Chandigarh"],
+    "summary": "Essentially invented modernist architecture. Every glass tower and open-plan apartment in the world is his legacy. The most copied architect in history.",
+    "medium_aura": 0.6,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1941,
+    "year_of_major_works": [1929, 1952, 1950],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He wanted to tear down Paris and replace it with towers. He collaborated with Vichy. He also invented the way most of the world builds. You probably live in a building shaped by ideas he had. The politics and the genius came in the same package and architecture doesn't have a streaming service to boycott."
+  }
+}

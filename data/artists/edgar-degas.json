@@ -1,0 +1,49 @@
+{
+  "id": "edgar-degas",
+  "name": "Edgar Degas",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "edgar-degas.jpg",
+  "acts": [
+    {
+      "description": "Virulent anti-Semite who broke with lifelong friends over the Dreyfus Affair, supporting Dreyfus's unjust imprisonment",
+      "severity": 0.55,
+      "victim_count": 1000000,
+      "duration": 0.6,
+      "reversibility": 0.4,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.3,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Impressionist master and enthusiastic anti-Dreyfusard who ended friendships with Jewish artists and publicly aligned himself with anti-Semitic forces in France.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.55
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["The Dance Class", "L'Absinthe", "Blue Dancers"],
+    "summary": "One of the founders of Impressionism. His ballet and racecourse paintings are among the most beloved works in Western art. Technical genius in capturing movement.",
+    "medium_aura": 0.8,
+    "contamination": 0.3,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1894,
+    "year_of_major_works": [1874, 1876, 1889],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He painted the most beautiful pictures of dancers in art history and ended his friendship with Camille Pissarro because Pissarro was Jewish and defended Dreyfus. The anti-Semitism was not incidental — it cost him real friendships and he chose it anyway. The dancers keep dancing."
+  }
+}

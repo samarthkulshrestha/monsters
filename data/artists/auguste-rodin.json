@@ -1,0 +1,49 @@
+{
+  "id": "auguste-rodin",
+  "name": "Auguste Rodin",
+  "domain": "visual-art",
+  "sub_domain": "Sculptor",
+  "portrait": "auguste-rodin.jpg",
+  "acts": [
+    {
+      "description": "Used and discarded sculptor Camille Claudel, refusing to marry her while using her artistic ideas, leading to her eventual collapse and institutionalization",
+      "severity": 0.65,
+      "victim_count": 1,
+      "duration": 0.6,
+      "reversibility": 0.6,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["coercion", "fraud_or_theft", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Had a fifteen-year relationship with the brilliant sculptor Camille Claudel, used her artistically and personally, then returned to his longstanding partner. Claudel ended her life in an institution.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["The Thinker", "The Kiss", "The Gates of Hell"],
+    "summary": "The father of modern sculpture. His work is the bridge between classical and modern figurative sculpture and influenced virtually every sculptor who followed.",
+    "medium_aura": 0.8,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1883,
+    "year_of_major_works": [1880, 1889, 1882],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He is celebrated as a genius. Camille Claudel spent thirty years in a psychiatric institution after he left her. Some scholars believe her best work was credited to him. The Thinker doesn't think about her. Someone should."
+  }
+}

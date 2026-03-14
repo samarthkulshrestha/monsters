@@ -1,0 +1,49 @@
+{
+  "id": "charlie-chaplin",
+  "name": "Charlie Chaplin",
+  "domain": "film",
+  "sub_domain": "Director & Actor",
+  "portrait": "charlie-chaplin.jpg",
+  "acts": [
+    {
+      "description": "Serial relationships with teenage girls; married Mildred Harris at 16, Lita Grey at 16, both when he was in his 30s",
+      "severity": 0.75,
+      "victim_count": 4,
+      "duration": 0.7,
+      "reversibility": 0.6,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "The most famous filmmaker of the silent era had a persistent pattern of pursuing and marrying teenage girls while he was in his 30s. His fourth wife Oona O'Neill was 18 when he was 54.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["City Lights", "Modern Times", "The Great Dictator"],
+    "summary": "Invented screen comedy. The Tramp is one of the most recognizable fictional characters in history. The Great Dictator was a courageous anti-fascist statement.",
+    "medium_aura": 0.8,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1918,
+    "year_of_major_works": [1931, 1936, 1940],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "City Lights is one of the most emotionally devastating films ever made. The man who made it had a documented preference for teenage girls that spanned thirty years and four marriages. The Tramp is timeless. The pattern was not incidental."
+  }
+}

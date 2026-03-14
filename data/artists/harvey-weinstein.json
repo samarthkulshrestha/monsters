@@ -1,0 +1,74 @@
+{
+  "id": "harvey-weinstein",
+  "name": "Harvey Weinstein",
+  "domain": "film",
+  "sub_domain": "Producer",
+  "portrait": "harvey-weinstein.jpg",
+  "acts": [
+    {
+      "description": "Convicted of rape in the first and third degree in 2020 New York trial",
+      "severity": 1.0,
+      "victim_count": 2,
+      "duration": 0.3,
+      "reversibility": 1.0,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Dozens of additional allegations of rape, assault, and harassment spanning over 30 years",
+      "severity": 0.95,
+      "victim_count": 80,
+      "duration": 1.0,
+      "reversibility": 0.9,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Systematic use of NDAs and industry power to silence and intimidate victims",
+      "severity": 0.8,
+      "victim_count": 80,
+      "duration": 1.0,
+      "reversibility": 0.7,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.4,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["coercion", "fraud_or_theft"]
+    }
+  ],
+  "behavior_summary": "Convicted rapist whose decades of predation in Hollywood defined an entire era of abuse. Used the casting couch as a weapon of mass destruction.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.02,
+    "consistency": 0.95
+  },
+  "art": {
+    "significance": 7,
+    "influence": 8,
+    "replaceability": 7,
+    "notable_works": ["Pulp Fiction", "Good Will Hunting", "Shakespeare in Love"],
+    "summary": "Produced major Oscar-winning films and shaped independent cinema, but as a producer, not a creative author.",
+    "medium_aura": 0.2,
+    "contamination": 0.95,
+    "separability": 0.3
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2017,
+    "year_of_major_works": [1994, 1997, 1998],
+    "accountability_events": [
+      "2020 convicted of rape in New York",
+      "2023 convicted of rape in Los Angeles"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He didn't make the movies — he made careers disappear. Watching films he produced doesn't enrich him anymore, but it still enriches the myth of a machine built on assault. The art survived him. The victims are still surviving too."
+  }
+}

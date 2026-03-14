@@ -1,0 +1,60 @@
+{
+  "id": "charles-dickens",
+  "name": "Charles Dickens",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "charles-dickens.jpg",
+  "acts": [
+    {
+      "description": "Publicly humiliated and abandoned his wife Catherine after 22 years and 10 children; published newspaper statement blaming her",
+      "severity": 0.6,
+      "victim_count": 11,
+      "duration": 0.4,
+      "reversibility": 0.5,
+      "power_differential": 0.9,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion", "fraud_or_theft"]
+    },
+    {
+      "description": "Persistent anti-Semitic characterizations in his fiction; the character Fagin in Oliver Twist",
+      "severity": 0.5,
+      "victim_count": 1000000,
+      "duration": 0.6,
+      "reversibility": 0.5,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "The great chronicler of poverty and injustice abandoned his wife of 22 years and ten children, conducting a public smear campaign against her, while carrying on an affair with a young actress.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Great Expectations", "A Tale of Two Cities", "A Christmas Carol"],
+    "summary": "One of the greatest novelists in English literature. Shaped the Victorian novel and the modern conception of social justice literature.",
+    "medium_aura": 0.8,
+    "contamination": 0.3,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1858,
+    "year_of_major_works": [1859, 1861, 1843],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He wrote movingly about the suffering of the poor while making his wife's life hell and putting an announcement in the newspaper blaming her for their separation. He fought for the rights of children in his fiction and created Fagin. Large men contain multitudes."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "paul-gauguin",
+  "name": "Paul Gauguin",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "paul-gauguin.jpg",
+  "acts": [
+    {
+      "description": "Took multiple child brides in Tahiti and the Marquesas, aged 13-14, while in his 40s",
+      "severity": 0.95,
+      "victim_count": 4,
+      "duration": 0.7,
+      "reversibility": 0.9,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "collaboration_with_oppression"]
+    },
+    {
+      "description": "Contracted syphilis and likely infected his young Tahitian partners",
+      "severity": 0.8,
+      "victim_count": 3,
+      "duration": 0.6,
+      "reversibility": 0.8,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["bodily_autonomy", "acts_against_children"]
+    },
+    {
+      "description": "Abandoned wife and five children in France before beginning colonial sexual exploitation in Pacific",
+      "severity": 0.6,
+      "victim_count": 6,
+      "duration": 0.7,
+      "reversibility": 0.6,
+      "power_differential": 0.8,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["fraud_or_theft"]
+    }
+  ],
+  "behavior_summary": "Abandoned his family in France to travel to Tahiti, where he took multiple child brides aged 13-14, painted them, and probably infected them with syphilis. The paintings hang in the Louvre.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 10,
+    "influence": 9,
+    "replaceability": 2,
+    "notable_works": ["Where Do We Come From? What Are We? Where Are We Going?", "Spirit of the Dead Watching", "Vision After the Sermon"],
+    "summary": "Post-Impressionist pioneer who profoundly influenced modernism, expressionism, and the development of modern art. His color theory and flat perspective were revolutionary.",
+    "medium_aura": 0.8,
+    "contamination": 0.8,
+    "separability": 0.2
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1891,
+    "year_of_major_works": [1897, 1892, 1888],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "His paintings of Tahitian women are in the Louvre. The women were children. He was a colonial predator who traded European sophistication for access to vulnerable girls in a place the law couldn't reach him. The paintings are beautiful. That's the whole problem."
+  }
+}

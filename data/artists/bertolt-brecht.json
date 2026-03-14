@@ -1,0 +1,60 @@
+{
+  "id": "bertolt-brecht",
+  "name": "Bertolt Brecht",
+  "domain": "theater",
+  "sub_domain": "Playwright",
+  "portrait": "bertolt-brecht.jpg",
+  "acts": [
+    {
+      "description": "Systematically appropriated work of female collaborators including Elisabeth Hauptmann without credit or pay",
+      "severity": 0.65,
+      "victim_count": 5,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.8,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["fraud_or_theft", "coercion", "sexual_exploitation"]
+    },
+    {
+      "description": "Maintained multiple simultaneous relationships with women collaborators who he exploited professionally and personally",
+      "severity": 0.5,
+      "victim_count": 6,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.8,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion", "fraud_or_theft"]
+    }
+  ],
+  "behavior_summary": "The great left-wing playwright built his career substantially on uncredited work by women collaborators he was also sleeping with. Threepenny Opera may be partly Elisabeth Hauptmann's.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 2,
+    "notable_works": ["The Threepenny Opera", "Mother Courage and Her Children", "The Good Person of Szechwan"],
+    "summary": "Invented epic theater. The most influential playwright of the 20th century after possibly Shakespeare. His Verfremdungseffekt shaped all subsequent political theater.",
+    "medium_aura": 0.7,
+    "contamination": 0.4,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1928,
+    "year_of_major_works": [1928, 1941, 1943],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He wrote plays about exploitation and capitalist theft while running a personal workshop of women whose labor and love he extracted without credit. Elisabeth Hauptmann wrote 80% of Threepenny Opera by some accounts. Her name was footnote material for decades."
+  }
+}

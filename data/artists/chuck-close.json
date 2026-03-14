@@ -1,0 +1,52 @@
+{
+  "id": "chuck-close",
+  "name": "Chuck Close",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "chuck-close.jpg",
+  "acts": [
+    {
+      "description": "Multiple accusations of sexual harassment during studio visits and professional meetings",
+      "severity": 0.65,
+      "victim_count": 6,
+      "duration": 0.6,
+      "reversibility": 0.5,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Celebrated photorealist painter faced multiple accusations of sexual harassment from women he invited to his studio for professional purposes.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Big Self-Portrait", "Phil", "Mark"],
+    "summary": "Pioneer of photorealism. His enormous gridded portrait paintings are icons of late 20th century American art. Created significant work despite paralysis after 1988.",
+    "medium_aura": 0.6,
+    "contamination": 0.45,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2000,
+    "year_of_major_works": [1968, 1969, 1984],
+    "accountability_events": [
+      "2017 multiple accusers went public during MeToo movement",
+      "2018 National Portrait Gallery canceled planned exhibition"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He invited young women to his studio under professional pretexts and harassed them. The National Portrait Gallery cancelled his show. His paintings are still extraordinary works of obsessive craft. The studio was where people went to be seen; not everyone who went wanted what happened."
+  }
+}

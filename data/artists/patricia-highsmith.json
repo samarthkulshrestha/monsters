@@ -1,0 +1,62 @@
+{
+  "id": "patricia-highsmith",
+  "name": "Patricia Highsmith",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "patricia-highsmith.jpg",
+  "acts": [
+    {
+      "description": "Documented virulent anti-Semitism and racism expressed in diaries and personal correspondence",
+      "severity": 0.55,
+      "victim_count": 1,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    },
+    {
+      "description": "Documented cruelty to former lovers and associates, keeping lists of enemies",
+      "severity": 0.4,
+      "victim_count": 15,
+      "duration": 0.8,
+      "reversibility": 0.3,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": []
+    }
+  ],
+  "behavior_summary": "Author of some of the 20th century's most compelling psychological suspense novels, whose private diaries revealed extreme anti-Semitism, racism, and personal cruelty.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["The Talented Mr. Ripley", "Strangers on a Train", "Carol"],
+    "summary": "Master of psychological suspense. Ripley is one of the great antiheroes in fiction. Carol was groundbreaking queer fiction at a time when that was genuinely dangerous.",
+    "medium_aura": 0.7,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1950,
+    "year_of_major_works": [1950, 1955, 1952],
+    "accountability_events": [
+      "2021 posthumous diaries published revealing extent of her views"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "She wrote Carol — one of the great lesbian love stories — while privately recording monstrous views about Jewish people and others. Ripley is a sublime creation. Her diaries are a nightmare. She kept lists of people she hated. You might have been on one."
+  }
+}

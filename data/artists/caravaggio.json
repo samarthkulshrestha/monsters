@@ -1,0 +1,63 @@
+{
+  "id": "caravaggio",
+  "name": "Caravaggio",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "caravaggio.jpg",
+  "acts": [
+    {
+      "description": "Killed Ranuccio Tomassoni in a brawl in Rome in 1606, sentenced to death in absentia",
+      "severity": 1.0,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 1.0,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["violence"]
+    },
+    {
+      "description": "Multiple documented violent assaults, attacks with weapons, and criminal charges throughout Rome",
+      "severity": 0.75,
+      "victim_count": 8,
+      "duration": 0.8,
+      "reversibility": 0.5,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["violence"]
+    }
+  ],
+  "behavior_summary": "Killed a man in 1606. Was a violent repeat offender throughout his life in Rome. Also painted some of the most extraordinary works in Western art history.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["The Calling of Saint Matthew", "Judith Beheading Holofernes", "The Supper at Emmaus"],
+    "summary": "Invented chiaroscuro and fundamentally transformed Western painting. Every painter who came after him contended with his work.",
+    "medium_aura": 0.9,
+    "contamination": 0.3,
+    "separability": 0.8
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1606,
+    "year_of_major_works": [1600, 1599, 1601],
+    "accountability_events": [
+      "1606 sentenced to death in absentia, fled Rome",
+      "1610 died before receiving papal pardon"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He murdered a man and ran from Rome with a death sentence on his head. He was also a violent thug for most of his adult life. He died four hundred years ago, his victims died four hundred years ago, and his paintings still make people weep in churches. Time does strange things to monsters."
+  }
+}

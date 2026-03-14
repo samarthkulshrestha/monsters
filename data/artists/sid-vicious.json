@@ -1,0 +1,52 @@
+{
+  "id": "sid-vicious",
+  "name": "Sid Vicious",
+  "domain": "music",
+  "sub_domain": "Punk Rock Musician",
+  "portrait": "sid-vicious.jpg",
+  "acts": [
+    {
+      "description": "Charged with the murder of girlfriend Nancy Spungen, found stabbed to death in their Chelsea Hotel room in 1978",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 1.0,
+      "power_differential": 0.5,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["violence"]
+    }
+  ],
+  "behavior_summary": "Iconic punk bassist charged with the murder of his girlfriend Nancy Spungen, died of a heroin overdose before trial. The truth of what happened that night in the Chelsea Hotel remains disputed.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 7,
+    "influence": 8,
+    "replaceability": 6,
+    "notable_works": ["Never Mind the Bollocks", "My Way (live)", "Something Else"],
+    "summary": "The visual face of punk rock. Couldn't really play bass. His image and nihilism defined what punk meant culturally, even if he was essentially a prop in the Sex Pistols.",
+    "medium_aura": 0.6,
+    "contamination": 0.5,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1978,
+    "year_of_major_works": [1977, 1978],
+    "accountability_events": [
+      "1978 charged with murder of Nancy Spungen",
+      "1979 died of heroin overdose before trial"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "His girlfriend was found stabbed to death and he was charged with her murder. He died before the trial. Nobody actually knows what happened in room 100 of the Chelsea Hotel. The punk legend is built partly on a dead woman nobody talks about much."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ernest-hemingway",
+  "name": "Ernest Hemingway",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "ernest-hemingway.jpg",
+  "acts": [
+    {
+      "description": "Serial cruelty to all four wives; emotional abuse and control documented across multiple relationships",
+      "severity": 0.55,
+      "victim_count": 4,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 0.8,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["coercion"]
+    },
+    {
+      "description": "Bullying, cruelty, and systematic disparagement of fellow writers throughout his career",
+      "severity": 0.4,
+      "victim_count": 20,
+      "duration": 0.9,
+      "reversibility": 0.3,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": []
+    }
+  ],
+  "behavior_summary": "The quintessential macho American novelist was cruel to every woman he was with and went out of his way to belittle or destroy the reputations of other writers.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.65
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 2,
+    "notable_works": ["The Sun Also Rises", "A Farewell to Arms", "For Whom the Bell Tolls"],
+    "summary": "Nobel Prize winner. Transformed prose style in English. The iceberg theory of writing. The most imitated author in American literature.",
+    "medium_aura": 0.7,
+    "contamination": 0.25,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1927,
+    "year_of_major_works": [1926, 1929, 1940],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He was awful to the women who loved him and petty about the writers who rivaled him. He also wrote some of the best prose sentences in English. The writing is good enough that people have been making excuses for the man for eighty years. Make of that what you will."
+  }
+}

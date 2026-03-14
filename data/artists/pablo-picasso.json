@@ -1,0 +1,71 @@
+{
+  "id": "pablo-picasso",
+  "name": "Pablo Picasso",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "pablo-picasso.jpg",
+  "acts": [
+    {
+      "description": "Systematic psychological cruelty to intimate partners; two partners attempted suicide",
+      "severity": 0.8,
+      "victim_count": 7,
+      "duration": 1.0,
+      "reversibility": 0.7,
+      "power_differential": 0.95,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["coercion", "violence"]
+    },
+    {
+      "description": "Relationships with much younger women, including Françoise Gilot at 17 when he was 61",
+      "severity": 0.65,
+      "victim_count": 3,
+      "duration": 0.7,
+      "reversibility": 0.5,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Marie-Thérèse Walter relationship begun when she was 17 and he was 45",
+      "severity": 0.7,
+      "victim_count": 1,
+      "duration": 0.6,
+      "reversibility": 0.6,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["sexual_exploitation", "acts_against_children"]
+    }
+  ],
+  "behavior_summary": "The most celebrated artist of the 20th century was also a documented psychological abuser. He famously said women are either goddesses or doormats. He meant it.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Guernica", "Les Demoiselles d'Avignon", "Weeping Woman"],
+    "summary": "Co-invented Cubism. The most influential artist of the 20th century. His work is in every major museum on Earth.",
+    "medium_aura": 0.9,
+    "contamination": 0.5,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1927,
+    "year_of_major_works": [1937, 1907, 1937],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He painted Guernica — one of the great indictments of violence against civilians — while treating the women in his life as disposable objects to drain and discard. Two killed themselves. He said women are either goddesses or doormats. He painted both."
+  }
+}

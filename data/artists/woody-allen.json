@@ -1,0 +1,60 @@
+{
+  "id": "woody-allen",
+  "name": "Woody Allen",
+  "domain": "film",
+  "sub_domain": "Director",
+  "portrait": "woody-allen.jpg",
+  "acts": [
+    {
+      "description": "Dylan Farrow's allegation that Allen sexually abused her at age 7 in 1992",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 0.9,
+      "power_differential": 1.0,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    },
+    {
+      "description": "Began secret relationship with Soon-Yi Previn, then 21, the adopted daughter of his partner Mia Farrow, while acting as her father figure",
+      "severity": 0.75,
+      "victim_count": 1,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Accused by his adopted daughter of sexual abuse. Married his partner's other adopted daughter. Has never faced legal accountability. Still making films.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Annie Hall", "Manhattan", "Hannah and Her Sisters"],
+    "summary": "One of the defining voices of American intellectual cinema. His films shaped a generation of filmmakers and a specific mode of urban neurotic comedy.",
+    "medium_aura": 0.6,
+    "contamination": 0.7,
+    "separability": 0.35
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1992,
+    "year_of_major_works": [1977, 1979, 1986],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He made Manhattan — a film where a 42-year-old man's relationship with a 17-year-old girl is treated as romantic. Then his daughter wrote an open letter about what he did to her at seven. He's still making films. Everyone keeps showing up."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "alfred-hitchcock",
+  "name": "Alfred Hitchcock",
+  "domain": "film",
+  "sub_domain": "Director",
+  "portrait": "alfred-hitchcock.jpg",
+  "acts": [
+    {
+      "description": "Obsessive psychological manipulation and harassment of Tippi Hedren, using his power to destroy her career when she refused him",
+      "severity": 0.8,
+      "victim_count": 1,
+      "duration": 0.5,
+      "reversibility": 0.7,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["coercion", "sexual_exploitation"]
+    },
+    {
+      "description": "Pattern of controlling, obsessive behavior toward multiple actresses in his films",
+      "severity": 0.6,
+      "victim_count": 6,
+      "duration": 0.8,
+      "reversibility": 0.5,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Master of suspense who controlled and sexually harassed his leading ladies, most systematically Tippi Hedren, whose career he deliberately sabotaged when she rejected him.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.75
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Psycho", "Vertigo", "Rear Window"],
+    "summary": "The Master of Suspense. Psycho and Vertigo are among the most studied films ever made. His influence on cinema is incalculable.",
+    "medium_aura": 0.7,
+    "contamination": 0.5,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1963,
+    "year_of_major_works": [1960, 1958, 1954],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He made Vertigo — a film literally about a man's obsessive need to control a woman into his ideal image — while doing exactly that to Tippi Hedren in real life. The film is about him. He cast himself as Jimmy Stewart and thought no one would notice."
+  }
+}

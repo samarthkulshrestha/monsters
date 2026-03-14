@@ -1,0 +1,62 @@
+{
+  "id": "lars-von-trier",
+  "name": "Lars von Trier",
+  "domain": "film",
+  "sub_domain": "Director",
+  "portrait": "lars-von-trier.jpg",
+  "acts": [
+    {
+      "description": "At 2011 Cannes press conference declared 'I'm a Nazi' and expressed understanding for Hitler",
+      "severity": 0.65,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 0.4,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    },
+    {
+      "description": "Björk and other actresses documented his psychologically abusive directing methods",
+      "severity": 0.6,
+      "victim_count": 5,
+      "duration": 0.5,
+      "reversibility": 0.4,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion"]
+    }
+  ],
+  "behavior_summary": "Provocateur director who declared himself a Nazi at Cannes and whose psychological brutality toward actresses, especially Björk, is extensively documented.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 9,
+    "influence": 8,
+    "replaceability": 3,
+    "notable_works": ["Melancholia", "Dancer in the Dark", "Breaking the Waves"],
+    "summary": "Co-founded Dogme 95. Made some of the most formally and emotionally challenging films in contemporary cinema. Genuine visionary however unbearable as a person.",
+    "medium_aura": 0.5,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2011,
+    "year_of_major_works": [1996, 2000, 2011],
+    "accountability_events": [
+      "2011 banned from Cannes Film Festival after Hitler remarks"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He said 'I'm a Nazi' at Cannes and Björk said never again after working with him and he's still making films that win major prizes. Melancholia is genuinely great. The press conference was not a bit. Cannes eventually let him back."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "frank-lloyd-wright",
+  "name": "Frank Lloyd Wright",
+  "domain": "architecture",
+  "sub_domain": "Architect",
+  "portrait": "frank-lloyd-wright.jpg",
+  "acts": [
+    {
+      "description": "Abandoned his first wife and six children to run away with a client's wife, devastating his family",
+      "severity": 0.55,
+      "victim_count": 7,
+      "duration": 0.5,
+      "reversibility": 0.5,
+      "power_differential": 0.8,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["fraud_or_theft"]
+    },
+    {
+      "description": "Documented abusive and exploitative treatment of Taliesin apprentices, extracting free labor",
+      "severity": 0.5,
+      "victim_count": 50,
+      "duration": 0.9,
+      "reversibility": 0.3,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion", "fraud_or_theft"]
+    }
+  ],
+  "behavior_summary": "Abandoned family, ran a cult-like studio where apprentices worked for free, and had a string of turbulent relationships. Also designed some of the most extraordinary buildings in American history.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Fallingwater", "Guggenheim Museum", "Robie House"],
+    "summary": "The greatest American architect. Fallingwater is possibly the most famous private house in history. Organic architecture changed how buildings relate to nature.",
+    "medium_aura": 0.8,
+    "contamination": 0.25,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1909,
+    "year_of_major_works": [1909, 1936, 1959],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He left his first wife and six children for a client's wife, then lost that woman to an axe murderer, and kept designing extraordinary buildings throughout. His apprentices called him 'Mr. Wright' and built his walls for free. Fallingwater doesn't care about any of that. Neither do most people visiting it."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "james-brown",
+  "name": "James Brown",
+  "domain": "music",
+  "sub_domain": "Singer",
+  "portrait": "james-brown.jpg",
+  "acts": [
+    {
+      "description": "Multiple domestic violence arrests; wife Adrienne alleged repeated physical abuse",
+      "severity": 0.8,
+      "victim_count": 3,
+      "duration": 0.8,
+      "reversibility": 0.6,
+      "power_differential": 0.8,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["violence", "coercion"]
+    },
+    {
+      "description": "1988 police chase after allegedly shooting at employees and assaulting wife with an iron pipe",
+      "severity": 0.85,
+      "victim_count": 2,
+      "duration": 0.1,
+      "reversibility": 0.5,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.8,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence"]
+    }
+  ],
+  "behavior_summary": "Godfather of soul. Documented domestic abuser. Multiple arrests. Served prison time. Continued performing until his death to universal celebration.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["I Got You (I Feel Good)", "Papa's Got a Brand New Bag", "Sex Machine"],
+    "summary": "Invented funk. Foundational to hip-hop, R&B, and dance music. One of the most sampled artists in history. The Godfather of Soul is not an honorary title.",
+    "medium_aura": 0.7,
+    "contamination": 0.5,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1988,
+    "year_of_major_works": [1965, 1970, 1960],
+    "accountability_events": [
+      "1988 convicted, served two years of six-year sentence"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He invented funk and beat his wives. Both things are true and the music world has mostly decided to remember only one of them. His legacy is enormous and his victims are also real people who existed."
+  }
+}

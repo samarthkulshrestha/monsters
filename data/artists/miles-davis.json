@@ -1,0 +1,49 @@
+{
+  "id": "miles-davis",
+  "name": "Miles Davis",
+  "domain": "music",
+  "sub_domain": "Jazz Trumpeter",
+  "portrait": "miles-davis.jpg",
+  "acts": [
+    {
+      "description": "Documented physical abuse of wife Frances Taylor and partner Cicely Tyson, admitted in his autobiography",
+      "severity": 0.8,
+      "victim_count": 3,
+      "duration": 0.7,
+      "reversibility": 0.6,
+      "power_differential": 0.8,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence", "coercion"]
+    }
+  ],
+  "behavior_summary": "One of the most important musicians in jazz history who openly admitted in his autobiography to beating the women he was in relationships with.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Kind of Blue", "Bitches Brew", "Birth of the Cool"],
+    "summary": "Reinvented jazz multiple times. Kind of Blue is the best-selling jazz album in history. His influence extends through every subsequent genre.",
+    "medium_aura": 0.8,
+    "contamination": 0.4,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1960,
+    "year_of_major_works": [1959, 1970, 1949],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He wrote in his own autobiography that he hit women. The same book where he described his artistic philosophy and reinvention. Kind of Blue is genuinely one of the most beautiful recordings ever made. His partners lived in fear. Both things are true."
+  }
+}

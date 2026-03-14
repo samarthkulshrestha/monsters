@@ -1,0 +1,62 @@
+{
+  "id": "eric-gill",
+  "name": "Eric Gill",
+  "domain": "visual-art",
+  "sub_domain": "Sculptor & Typographer",
+  "portrait": "eric-gill.jpg",
+  "acts": [
+    {
+      "description": "Diaries revealed he sexually abused his two daughters over many years",
+      "severity": 1.0,
+      "victim_count": 2,
+      "duration": 0.8,
+      "reversibility": 1.0,
+      "power_differential": 1.0,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    },
+    {
+      "description": "Diaries revealed he sexually abused his sister and had sexual contact with his dog",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.5,
+      "reversibility": 0.8,
+      "power_differential": 0.7,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "His posthumously published diaries revealed systematic sexual abuse of his own children. His typography — Gill Sans, Perpetua — is embedded in the visual infrastructure of the English-speaking world.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.05,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 9,
+    "influence": 10,
+    "replaceability": 2,
+    "notable_works": ["Gill Sans typeface", "Perpetua typeface", "Stations of the Cross at Westminster Cathedral"],
+    "summary": "Created Gill Sans, one of the most widely used typefaces in the world. His typography shaped British visual culture and is baked into countless institutions.",
+    "medium_aura": 0.5,
+    "contamination": 0.7,
+    "separability": 0.4
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1920,
+    "year_of_major_works": [1928, 1932, 1914],
+    "accountability_events": [
+      "1989 posthumous revelations via published diaries"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Every time you read the BBC website, a signpost at a British train station, or a thousand other things rendered in Gill Sans, you are reading the work of a man who raped his own children and wrote about it approvingly in his diary. His victims are dead. The typeface is everywhere."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "norman-mailer",
+  "name": "Norman Mailer",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "norman-mailer.jpg",
+  "acts": [
+    {
+      "description": "Stabbed his second wife Adele Morales with a penknife at a party in 1960; she nearly died",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 0.7,
+      "power_differential": 0.7,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence"]
+    },
+    {
+      "description": "Persistent misogynistic ideology expressed in major essays and public life",
+      "severity": 0.5,
+      "victim_count": 1000000,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 0.6,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Stabbed his wife at a party, avoided serious charges after she declined to press them, went on to win the Pulitzer Prize. Wrote extensively about the virtues of male violence.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.65
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["The Naked and the Dead", "The Executioner's Song", "Armies of the Night"],
+    "summary": "Two-time Pulitzer Prize winner. A central figure in American letters for fifty years. Pioneered New Journalism alongside Tom Wolfe.",
+    "medium_aura": 0.6,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1960,
+    "year_of_major_works": [1948, 1979, 1968],
+    "accountability_events": [
+      "1960 charges dropped after wife declined to press"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He stabbed his wife at a party and continued to be Norman Mailer, winner of two Pulitzer Prizes and iconic American literary figure. He wrote extensively about male violence as vitality. This was not entirely theoretical."
+  }
+}

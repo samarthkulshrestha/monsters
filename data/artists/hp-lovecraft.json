@@ -1,0 +1,51 @@
+{
+  "id": "hp-lovecraft",
+  "name": "H.P. Lovecraft",
+  "domain": "literature",
+  "sub_domain": "Author",
+  "portrait": "hp-lovecraft.jpg",
+  "acts": [
+    {
+      "description": "Wrote explicitly racist poetry and prose; held extreme white supremacist views expressed throughout his work",
+      "severity": 0.65,
+      "victim_count": 1000000,
+      "duration": 0.8,
+      "reversibility": 0.6,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Foundational horror writer whose racism was not incidental but central to his creative vision. The monsters in his stories are frequently metaphors for racial anxiety.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 9,
+    "influence": 10,
+    "replaceability": 3,
+    "notable_works": ["The Call of Cthulhu", "At the Mountains of Madness", "The Shadow over Innsmouth"],
+    "summary": "Invented cosmic horror. His concepts of unknowable cosmic evil have influenced virtually every horror writer since. Cthulhu has become a cultural shorthand.",
+    "medium_aura": 0.7,
+    "contamination": 0.5,
+    "separability": 0.45
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1920,
+    "year_of_major_works": [1926, 1931, 1936],
+    "accountability_events": [
+      "2015 World Fantasy Award removed his likeness from the trophy"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He invented an entire mode of horror built on the terror of encountering the Other — and the Other he was most afraid of was Black people, Jewish people, and anyone not Anglo-Saxon. Cthulhu is basically a metaphor. The award committee eventually noticed."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "jk-rowling",
+  "name": "J.K. Rowling",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "jk-rowling.jpg",
+  "acts": [
+    {
+      "description": "Repeatedly published statements characterized by trans activists and many LGBT organizations as transphobic, including opposition to legal gender self-identification",
+      "severity": 0.4,
+      "victim_count": 1000000,
+      "duration": 0.5,
+      "reversibility": 0.3,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Author of Harry Potter has become a prominent public figure in debates around transgender rights, taking positions that most major LGBT organizations and medical bodies consider harmful to trans people.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.5,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 3,
+    "notable_works": ["Harry Potter series", "The Casual Vacancy", "Cormoran Strike series"],
+    "summary": "Harry Potter is the best-selling book series in history. Revitalized children's reading. Defined a generation's cultural imagination.",
+    "medium_aura": 0.9,
+    "contamination": 0.5,
+    "separability": 0.35
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": true
+  },
+  "temporal": {
+    "year_of_primary_act": 2019,
+    "year_of_major_works": [1997, 2003, 2007],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "She gave a generation its mythology and has spent recent years making trans people's lives measurably harder. Every Hogwarts game purchased, every reread, enriches someone who is actively campaigning against the rights of a vulnerable group. The books are still the books. She's still her."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "roald-dahl",
+  "name": "Roald Dahl",
+  "domain": "literature",
+  "sub_domain": "Author",
+  "portrait": "roald-dahl.jpg",
+  "acts": [
+    {
+      "description": "Repeatedly expressed anti-Semitic views publicly, including in a 1983 New Statesman interview",
+      "severity": 0.6,
+      "victim_count": 1000000,
+      "duration": 0.6,
+      "reversibility": 0.5,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Beloved children's author who made repeated public anti-Semitic statements throughout his life, including explicit defenses of those statements when challenged.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.4,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Charlie and the Chocolate Factory", "Matilda", "James and the Giant Peach"],
+    "summary": "One of the most beloved children's authors in history. His books have sold over 250 million copies and shaped the childhoods of multiple generations.",
+    "medium_aura": 0.8,
+    "contamination": 0.35,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1983,
+    "year_of_major_works": [1964, 1988, 1961],
+    "accountability_events": [
+      "2020 Roald Dahl Story Company issued posthumous apology for his anti-Semitism"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He wrote the books that got a generation of children to love reading. He also publicly blamed Jews for their own persecution in 1983 and doubled down when challenged. His estate apologized posthumously. Matilda is still brilliant. Both things are uncomfortable."
+  }
+}

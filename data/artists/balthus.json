@@ -1,0 +1,62 @@
+{
+  "id": "balthus",
+  "name": "Balthus",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "balthus.jpg",
+  "acts": [
+    {
+      "description": "Painted explicitly sexualized images of prepubescent girls throughout his career",
+      "severity": 0.8,
+      "victim_count": 1,
+      "duration": 1.0,
+      "reversibility": 0.5,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    },
+    {
+      "description": "2017 MoMA petition demanded removal of Thérèse Dreaming, a painting of a child in a sexualized pose",
+      "severity": 0.7,
+      "victim_count": 1,
+      "duration": 0.8,
+      "reversibility": 0.4,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.4,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Spent his career painting young girls in explicitly sexual poses. His work hangs in MoMA. There is significant ongoing debate about what that means.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 7,
+    "influence": 7,
+    "replaceability": 4,
+    "notable_works": ["Thérèse Dreaming", "The Guitar Lesson", "The Room"],
+    "summary": "Technically accomplished figurative painter whose work occupies major museum collections. The subject matter is the problem.",
+    "medium_aura": 0.6,
+    "contamination": 0.7,
+    "separability": 0.2
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1938,
+    "year_of_major_works": [1938, 1934, 1952],
+    "accountability_events": [
+      "2017 public petition demanded MoMA remove Thérèse Dreaming"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He spent sixty years painting children in sexual situations and the art world called it a meditation on adolescence. MoMA still has it on the wall. The little girl he kept photographing in Thérèse Dreaming was a real child named Thérèse."
+  }
+}

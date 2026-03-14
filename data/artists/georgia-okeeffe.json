@@ -1,0 +1,49 @@
+{
+  "id": "georgia-okeeffe",
+  "name": "Georgia O'Keeffe",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "georgia-okeeffe.jpg",
+  "acts": [
+    {
+      "description": "Documented mistreatment and exploitation of studio assistants and domestic employees in later life",
+      "severity": 0.35,
+      "victim_count": 5,
+      "duration": 0.6,
+      "reversibility": 0.3,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["coercion", "fraud_or_theft"]
+    }
+  ],
+  "behavior_summary": "Iconic American modernist who in her later years was documented to have treated assistants and household staff harshly, though the full extent is debated.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.45,
+    "consistency": 0.4
+  },
+  "art": {
+    "significance": 10,
+    "influence": 9,
+    "replaceability": 2,
+    "notable_works": ["Black Iris", "Jimson Weed", "Cow's Skull: Red, White, and Blue"],
+    "summary": "Mother of American modernism. Her flower paintings and New Mexico landscapes are iconic. One of the first major female artists to achieve canonical status.",
+    "medium_aura": 0.8,
+    "contamination": 0.15,
+    "separability": 0.85
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1970,
+    "year_of_major_works": [1926, 1932, 1931],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "She was often difficult and demanding to those in her employ, which is a fairly human failing. Her flowers are still extraordinary. This one barely clears the bar for inclusion — but the bar exists for a reason."
+  }
+}

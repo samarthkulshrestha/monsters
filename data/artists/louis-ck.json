@@ -1,0 +1,62 @@
+{
+  "id": "louis-ck",
+  "name": "Louis C.K.",
+  "domain": "comedy",
+  "sub_domain": "Comedian",
+  "portrait": "louis-ck.jpg",
+  "acts": [
+    {
+      "description": "Admitted to exposing himself and masturbating in front of at least five women without consent",
+      "severity": 0.75,
+      "victim_count": 5,
+      "duration": 0.4,
+      "reversibility": 0.6,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Used industry power to suppress allegations for years before admission",
+      "severity": 0.6,
+      "victim_count": 5,
+      "duration": 0.6,
+      "reversibility": 0.5,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.4,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion"]
+    }
+  ],
+  "behavior_summary": "Admitted to sexual misconduct with multiple women in his industry. Returned to touring after a brief hiatus and faced no lasting professional consequences.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 5,
+    "notable_works": ["Louie", "Live at the Beacon Theater", "Chewed Up"],
+    "summary": "One of the most praised stand-up comedians of his generation. His FX show Louie was widely considered the best comedy of its era.",
+    "medium_aura": 0.5,
+    "contamination": 0.6,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2002,
+    "year_of_major_works": [2010, 2012, 2008],
+    "accountability_events": [
+      "2017 issued public statement admitting to the allegations"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He admitted it, took about fourteen months off, then came back to sold-out crowds joking about being cancelled. The women whose careers he derailed are still dealing with it. He seems fine."
+  }
+}

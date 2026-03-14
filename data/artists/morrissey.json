@@ -1,0 +1,60 @@
+{
+  "id": "morrissey",
+  "name": "Morrissey",
+  "domain": "music",
+  "sub_domain": "Singer-Songwriter",
+  "portrait": "morrissey.jpg",
+  "acts": [
+    {
+      "description": "Expressed support for For Britain, a far-right anti-Islam political party, and wore their badge on TV",
+      "severity": 0.6,
+      "victim_count": 1000000,
+      "duration": 0.4,
+      "reversibility": 0.4,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech", "collaboration_with_oppression"]
+    },
+    {
+      "description": "Series of Islamophobic and anti-immigration statements in interviews over many years",
+      "severity": 0.55,
+      "victim_count": 1000000,
+      "duration": 0.6,
+      "reversibility": 0.4,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "The voice of a generation of lonely outsiders became a vocal supporter of far-right politics. His former band members have publicly disavowed him.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["The Queen Is Dead", "Hatful of Hollow", "Strangeways Here We Come"],
+    "summary": "As frontman of The Smiths, created some of the most influential British music of the 1980s. His solo career extended that legacy. The Smiths are canonized.",
+    "medium_aura": 0.7,
+    "contamination": 0.5,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": true
+  },
+  "temporal": {
+    "year_of_primary_act": 2018,
+    "year_of_major_works": [1984, 1985, 1986],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "How Soon Is Now is still one of the greatest songs ever written by a man who now endorses parties that want to deport people who look like some of his biggest fans. Johnny Marr has publically told him to stop using The Smiths. The alienation was always political. Just not this politics."
+  }
+}

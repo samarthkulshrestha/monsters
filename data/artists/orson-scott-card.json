@@ -1,0 +1,49 @@
+{
+  "id": "orson-scott-card",
+  "name": "Orson Scott Card",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "orson-scott-card.jpg",
+  "acts": [
+    {
+      "description": "Longtime board member of National Organization for Marriage; extensive advocacy against same-sex marriage and LGBTQ+ rights",
+      "severity": 0.55,
+      "victim_count": 1000000,
+      "duration": 0.7,
+      "reversibility": 0.4,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["hate_speech", "collaboration_with_oppression"]
+    }
+  ],
+  "behavior_summary": "Author of Ender's Game, one of the most celebrated sci-fi novels ever written, has spent decades as an active advocate against LGBTQ+ rights and same-sex marriage.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.65
+  },
+  "art": {
+    "significance": 9,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Ender's Game", "Speaker for the Dead", "Ender's Shadow"],
+    "summary": "Ender's Game is one of the most read science fiction novels in history, particularly formative for young readers. Won both Hugo and Nebula awards.",
+    "medium_aura": 0.6,
+    "contamination": 0.45,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": true
+  },
+  "temporal": {
+    "year_of_primary_act": 2004,
+    "year_of_major_works": [1985, 1986, 1999],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He wrote a novel about the moral cost of annihilating an entire species and has spent his adult life actively working to deny his LGBTQ+ readers basic rights. Royalties from Ender's Game fund that work. He's still at it."
+  }
+}

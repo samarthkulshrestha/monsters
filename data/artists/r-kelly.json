@@ -1,0 +1,74 @@
+{
+  "id": "r-kelly",
+  "name": "R. Kelly",
+  "domain": "music",
+  "sub_domain": "Singer-Songwriter",
+  "portrait": "r-kelly.jpg",
+  "acts": [
+    {
+      "description": "Convicted of sex trafficking and racketeering involving multiple minors",
+      "severity": 1.0,
+      "victim_count": 6,
+      "duration": 0.9,
+      "reversibility": 1.0,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.8,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "coercion", "bodily_autonomy"]
+    },
+    {
+      "description": "Illegally married 15-year-old Aaliyah in 1994",
+      "severity": 0.95,
+      "victim_count": 1,
+      "duration": 0.2,
+      "reversibility": 0.8,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "fraud_or_theft"]
+    },
+    {
+      "description": "Decades of predatory behavior targeting young Black women and girls with alleged cult-like control",
+      "severity": 0.95,
+      "victim_count": 20,
+      "duration": 1.0,
+      "reversibility": 0.9,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.95,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Convicted of sex trafficking minors. Decades of predatory abuse targeting vulnerable Black girls. The pied piper of R&B was playing a very different tune.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.02,
+    "consistency": 0.95
+  },
+  "art": {
+    "significance": 8,
+    "influence": 9,
+    "replaceability": 5,
+    "notable_works": ["I Believe I Can Fly", "Trapped in the Closet", "12 Play"],
+    "summary": "Massively influential R&B artist who shaped the genre through the 90s and 2000s. His music is utterly inseparable from the reality of who he is.",
+    "medium_aura": 0.5,
+    "contamination": 1.0,
+    "separability": 0.05
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1994,
+    "year_of_major_works": [1993, 1996, 2005],
+    "accountability_events": [
+      "2021 convicted of sex trafficking and racketeering",
+      "2022 sentenced to 30 years in federal prison"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He literally sang about being the pied piper. The victims were telling us for thirty years. Every stream before 2019 was funding it. He's in prison now, but his catalog keeps paying royalties — and some of those go to him."
+  }
+}

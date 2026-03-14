@@ -1,0 +1,49 @@
+{
+  "id": "helmut-newton",
+  "name": "Helmut Newton",
+  "domain": "photography",
+  "sub_domain": "Fashion Photographer",
+  "portrait": "helmut-newton.jpg",
+  "acts": [
+    {
+      "description": "Career built on eroticizing violence against women; photographs consistently depicted women in bondage, humiliation, and predatory scenarios",
+      "severity": 0.55,
+      "victim_count": 100,
+      "duration": 1.0,
+      "reversibility": 0.3,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Massively influential fashion photographer whose work normalized the aestheticization of female subjugation and violence in mainstream imagery for decades.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.4,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 4,
+    "notable_works": ["Big Nudes series", "Sie Kommen (Dressed/Undressed)", "Various Vogue covers"],
+    "summary": "Redefined fashion photography. Among the most technically accomplished and commercially successful photographers of the 20th century. His visual language saturated fashion.",
+    "medium_aura": 0.6,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1975,
+    "year_of_major_works": [1975, 1981, 1990],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He photographed women in scenarios of bondage and violent subjugation and called it high fashion, and the industry agreed enthusiastically for forty years. The question of what that normalized is still being reckoned with. The pictures are technically masterful. That's part of why it worked."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bill-cosby",
+  "name": "Bill Cosby",
+  "domain": "comedy",
+  "sub_domain": "Comedian & Actor",
+  "portrait": "bill-cosby.jpg",
+  "acts": [
+    {
+      "description": "Drugged and sexually assaulted approximately 60 women over four decades",
+      "severity": 1.0,
+      "victim_count": 60,
+      "duration": 1.0,
+      "reversibility": 1.0,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Conviction overturned on procedural technicality despite admitted drugging of women",
+      "severity": 0.6,
+      "victim_count": 60,
+      "duration": 0.5,
+      "reversibility": 0.8,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.2,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": []
+    }
+  ],
+  "behavior_summary": "America's dad admitted to obtaining quaaludes to give to women he wanted to have sex with. Roughly 60 accusers. Conviction overturned on a technicality. Still alive.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.03,
+    "consistency": 0.95
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 4,
+    "notable_works": ["The Cosby Show", "I Spy", "Bill Cosby: Himself"],
+    "summary": "Groundbreaking comedian who defined family sitcoms and was the first Black actor to lead a dramatic TV series. His cultural impact is enormous and deeply poisoned.",
+    "medium_aura": 0.6,
+    "contamination": 1.0,
+    "separability": 0.15
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1969,
+    "year_of_major_works": [1965, 1984, 1983],
+    "accountability_events": [
+      "2018 convicted of aggravated indecent assault",
+      "2021 conviction overturned by Pennsylvania Supreme Court"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He built America's most beloved family while systematically drugging and assaulting women for forty years. The Cosby Show isn't just contaminated — it's the mask. Rewatching it now, you can't unsee the man wearing it."
+  }
+}

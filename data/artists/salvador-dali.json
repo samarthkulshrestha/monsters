@@ -1,0 +1,60 @@
+{
+  "id": "salvador-dali",
+  "name": "Salvador Dalí",
+  "domain": "visual-art",
+  "sub_domain": "Painter",
+  "portrait": "salvador-dali.jpg",
+  "acts": [
+    {
+      "description": "Expressed admiration for Franco and made statements sympathetic to Hitler, though the sincerity vs. provocation is contested",
+      "severity": 0.5,
+      "victim_count": 1000000,
+      "duration": 0.4,
+      "reversibility": 0.4,
+      "power_differential": 0.4,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["collaboration_with_oppression"]
+    },
+    {
+      "description": "Exploitative control of wife and artistic partner Gala, whom he eventually confined to a castle",
+      "severity": 0.5,
+      "victim_count": 1,
+      "duration": 0.7,
+      "reversibility": 0.4,
+      "power_differential": 0.7,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["coercion"]
+    }
+  ],
+  "behavior_summary": "The most famous surrealist made statements supporting Franco and Hitler that may have been genuine or may have been provocation. He was also a self-promoter of genius who called himself a genius constantly.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.35
+  },
+  "art": {
+    "significance": 10,
+    "influence": 9,
+    "replaceability": 2,
+    "notable_works": ["The Persistence of Memory", "The Sacrament of the Last Supper", "Dream Caused by the Flight of a Bee"],
+    "summary": "The defining face of Surrealism. One of the most recognizable artists in history. His imagery permeated popular culture globally.",
+    "medium_aura": 0.8,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1939,
+    "year_of_major_works": [1931, 1955, 1944],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He said nice things about Hitler and Franco, which his friends attributed to attention-seeking rather than conviction. He may have been a fascist or he may have been a troll — the historical record is genuinely ambiguous. The melting clocks, on the other hand, are unambiguous masterpieces."
+  }
+}

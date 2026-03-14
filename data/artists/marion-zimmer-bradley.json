@@ -1,0 +1,62 @@
+{
+  "id": "marion-zimmer-bradley",
+  "name": "Marion Zimmer Bradley",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "marion-zimmer-bradley.jpg",
+  "acts": [
+    {
+      "description": "Posthumous accusation by daughter Moira Greyland of decades of sexual abuse by both Bradley and her husband Walter Breen",
+      "severity": 1.0,
+      "victim_count": 3,
+      "duration": 0.9,
+      "reversibility": 1.0,
+      "power_differential": 1.0,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    },
+    {
+      "description": "Known at the time to have protected and enabled husband Walter Breen, a convicted child molester",
+      "severity": 0.85,
+      "victim_count": 10,
+      "duration": 0.7,
+      "reversibility": 0.8,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "collaboration_with_oppression"]
+    }
+  ],
+  "behavior_summary": "Author of The Mists of Avalon was posthumously accused by her daughter of sustained sexual abuse. She also protected her husband, a convicted child molester, at the expense of his victims.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["The Mists of Avalon", "The Shattered Chain", "Darkover series"],
+    "summary": "Hugely influential in feminist fantasy fiction. The Mists of Avalon was a landmark feminist retelling of Arthurian legend that influenced a generation of female fantasy readers.",
+    "medium_aura": 0.6,
+    "contamination": 0.8,
+    "separability": 0.2
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1965,
+    "year_of_major_works": [1983, 1976, 1962],
+    "accountability_events": [
+      "2014 daughter Moira Greyland published account of abuse"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "She wrote feminist fantasy that empowered a generation of women readers while reportedly abusing her own daughter and protecting a husband who did the same. Her daughter's account is specific and heartbreaking. The Mists of Avalon has a very different aftertaste now."
+  }
+}

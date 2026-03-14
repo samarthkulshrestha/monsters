@@ -1,0 +1,60 @@
+{
+  "id": "george-balanchine",
+  "name": "George Balanchine",
+  "domain": "dance",
+  "sub_domain": "Choreographer",
+  "portrait": "george-balanchine.jpg",
+  "acts": [
+    {
+      "description": "Serial controlling relationships with young dancers in his company, several of whom he married",
+      "severity": 0.6,
+      "victim_count": 8,
+      "duration": 0.9,
+      "reversibility": 0.5,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["coercion", "sexual_exploitation"]
+    },
+    {
+      "description": "Exercised total psychological control over dancers' lives, bodies, and identities",
+      "severity": 0.55,
+      "victim_count": 30,
+      "duration": 0.9,
+      "reversibility": 0.4,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["coercion"]
+    }
+  ],
+  "behavior_summary": "The most important choreographer of the 20th century was also a man who wielded absolute power over his dancers' lives, pursued relationships with multiple dancers he trained, and ran the company as a fiefdom.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Apollo", "Agon", "Serenade"],
+    "summary": "Reinvented ballet. Founded New York City Ballet. His neoclassical style defined 20th century dance in America. No single figure has had comparable impact on ballet.",
+    "medium_aura": 0.7,
+    "contamination": 0.35,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1946,
+    "year_of_major_works": [1928, 1957, 1934],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He remade ballet for the 20th century and treated the women in his company as interchangeable vessels for his artistic vision. He married five of his muses. The ballets outlive the relationships. The dancers are still talking."
+  }
+}

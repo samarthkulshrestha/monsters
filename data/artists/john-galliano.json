@@ -1,0 +1,64 @@
+{
+  "id": "john-galliano",
+  "name": "John Galliano",
+  "domain": "fashion",
+  "sub_domain": "Designer",
+  "portrait": "john-galliano.jpg",
+  "acts": [
+    {
+      "description": "Recorded making violent anti-Semitic statements in a Paris café in 2011, convicted of hate speech",
+      "severity": 0.7,
+      "victim_count": 3,
+      "duration": 0.1,
+      "reversibility": 0.4,
+      "power_differential": 0.3,
+      "relationship_proximity": 0.3,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    },
+    {
+      "description": "Multiple witnesses reported separate anti-Semitic incidents in Paris",
+      "severity": 0.65,
+      "victim_count": 5,
+      "duration": 0.3,
+      "reversibility": 0.5,
+      "power_differential": 0.3,
+      "relationship_proximity": 0.2,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "One of the most gifted fashion designers of his generation, fired by Dior and convicted of hate speech after anti-Semitic tirades were caught on video.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.4
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Dior Haute Couture 1997-2011", "His Givenchy collections", "Maison Margiela Artisanal collections"],
+    "summary": "Widely considered one of the most technically brilliant and visionary designers of the late 20th and early 21st century. His work for Dior was paradigm-shifting.",
+    "medium_aura": 0.6,
+    "contamination": 0.4,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2011,
+    "year_of_major_works": [1997, 2004, 2014],
+    "accountability_events": [
+      "2011 fired by Dior",
+      "2011 convicted of hate speech in French court",
+      "2014 appointed creative director of Maison Margiela"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He said 'I love Hitler' on video to strangers in a Paris bar. He's back designing clothes and getting standing ovations. The rehabilitation of John Galliano is a lesson in how much the fashion world values talent over anything else."
+  }
+}

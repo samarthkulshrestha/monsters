@@ -1,0 +1,52 @@
+{
+  "id": "william-s-burroughs",
+  "name": "William S. Burroughs",
+  "domain": "literature",
+  "sub_domain": "Novelist",
+  "portrait": "william-s-burroughs.jpg",
+  "acts": [
+    {
+      "description": "Shot and killed his wife Joan Vollmer in a drunken William Tell stunt in Mexico City, 1951",
+      "severity": 1.0,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 1.0,
+      "power_differential": 0.7,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence"]
+    }
+  ],
+  "behavior_summary": "Shot and killed his common-law wife Joan Vollmer at a party in Mexico City while attempting a drunken William Tell act. Fled to avoid charges. Later said the act made him a writer.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Naked Lunch", "Junky", "The Soft Machine"],
+    "summary": "Central figure of the Beat Generation. His cut-up technique influenced generations of writers, musicians, and artists. Naked Lunch remains a landmark of American avant-garde literature.",
+    "medium_aura": 0.7,
+    "contamination": 0.4,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1951,
+    "year_of_major_works": [1959, 1953, 1961],
+    "accountability_events": [
+      "1952 fled Mexico, charged in absentia with homicide",
+      "Charges eventually dropped"
+    ]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He shot his wife in the head and credited her death with making him a writer. She was 28. He got away with it, moved to Tangier, and wrote some of the most influential prose of the twentieth century. The dead woman's name was Joan."
+  }
+}
