@@ -1,0 +1,71 @@
+{
+  "id": "roman-polanski",
+  "name": "Roman Polanski",
+  "domain": "film",
+  "sub_domain": "Director",
+  "portrait": "roman-polanski.jpg",
+  "acts": [
+    {
+      "description": "Convicted of unlawful sex with a 13-year-old in 1977",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.2,
+      "reversibility": 0.9,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["bodily_autonomy", "acts_against_children"]
+    },
+    {
+      "description": "Fled sentencing, avoiding accountability",
+      "severity": 0.5,
+      "victim_count": 1,
+      "duration": 1.0,
+      "reversibility": 0.7,
+      "power_differential": 0.6,
+      "relationship_proximity": 0.2,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": []
+    },
+    {
+      "description": "Multiple additional allegations spanning decades",
+      "severity": 0.7,
+      "victim_count": 4,
+      "duration": 0.8,
+      "reversibility": 0.8,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["bodily_autonomy"]
+    }
+  ],
+  "behavior_summary": "Convicted of unlawful sex with a 13-year-old in 1977, fled sentencing, multiple other allegations spanning decades.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 9,
+    "influence": 8,
+    "replaceability": 3,
+    "notable_works": ["Chinatown", "The Pianist", "Rosemary's Baby"],
+    "summary": "Pioneered psychological horror and neo-noir, multiple Oscar-winning films.",
+    "medium_aura": 0.5,
+    "contamination": 0.6,
+    "separability": 0.4
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1977,
+    "year_of_major_works": [1968, 1974, 2002],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "The art is undeniably masterful. The man is undeniably a monster. He's still out there, living well. Every stream is a vote. You do the math."
+  }
+}
