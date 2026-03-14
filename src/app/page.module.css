@@ -1,0 +1,55 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px 64px;
+}
+
+.heroSection {
+  padding: 80px 0 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 720px;
+}
+
+.hero {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #330000;
+  letter-spacing: -1px;
+}
+
+.hero em {
+  font-style: normal;
+  color: var(--color-red);
+}
+
+.subhero {
+  font-size: 14px;
+  color: var(--color-muted);
+  line-height: 1.6;
+  max-width: 480px;
+}
+
+.gridSection {
+  border-top: 2px solid var(--color-border);
+  padding-top: 40px;
+}
+
+.gridHeading {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--color-muted);
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
