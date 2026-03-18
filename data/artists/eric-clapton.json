@@ -1,0 +1,60 @@
+{
+  "id": "eric-clapton",
+  "name": "Eric Clapton",
+  "domain": "music",
+  "sub_domain": "Rock",
+  "portrait": "eric-clapton.jpg",
+  "acts": [
+    {
+      "description": "1976 on-stage racist tirade calling for deportation of Black people from Britain, endorsing Enoch Powell",
+      "severity": 0.65,
+      "victim_count": 5,
+      "duration": 0.1,
+      "reversibility": 0.3,
+      "power_differential": 0.6,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    },
+    {
+      "description": "Recorded and promoted anti-vaccine misinformation songs during COVID-19 pandemic",
+      "severity": 0.5,
+      "victim_count": 5,
+      "duration": 0.3,
+      "reversibility": 0.4,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "1976 racist rant onstage is documented; was the catalyst for Rock Against Racism movement. Recent COVID misinformation campaign. Notable hypocrite given his career was built on Black American musical traditions.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.25,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Layla", "Wonderful Tonight", "Tears in Heaven"],
+    "summary": "Guitar legend, Cream, Derek and the Dominos. Helped introduce electric blues to mainstream rock. Canonical status is real.",
+    "medium_aura": 0.7,
+    "contamination": 0.3,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1976,
+    "year_of_major_works": [1970, 1972, 1992],
+    "accountability_events": ["1976 racist tirade, sparked Rock Against Racism"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Built an entire career on Black American music traditions, then got onstage and called for the removal of Black people from Britain. Slowhand, fast racism."
+  }
+}

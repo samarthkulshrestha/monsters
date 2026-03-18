@@ -1,0 +1,60 @@
+{
+  "id": "roseanne-barr",
+  "name": "Roseanne Barr",
+  "domain": "television",
+  "sub_domain": "Television",
+  "portrait": "roseanne-barr.jpg",
+  "acts": [
+    {
+      "description": "Racist tweet comparing Black Obama aide Valerie Jarrett to an ape",
+      "severity": 0.7,
+      "victim_count": 2,
+      "duration": 0.05,
+      "reversibility": 0.3,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    },
+    {
+      "description": "Embracing QAnon conspiracy theories and spreading related misinformation",
+      "severity": 0.5,
+      "victim_count": 5,
+      "duration": 0.6,
+      "reversibility": 0.3,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "A single racist tweet ended her comeback series and hundreds of jobs for castmates. Responded by leaning harder into conspiracy theories and MAGA politics.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 7,
+    "influence": 8,
+    "replaceability": 5,
+    "notable_works": ["Roseanne (1988-1997)", "Roseanne (2018 revival)"],
+    "summary": "Roseanne was a genuinely groundbreaking working-class sitcom that shifted American television. The revival lasted one season before she torched it.",
+    "medium_aura": 0.55,
+    "contamination": 0.2,
+    "separability": 0.8
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2018,
+    "year_of_major_works": [1988, 1997, 2018],
+    "accountability_events": ["2018 firing by ABC after racist tweet"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Made one of the most important sitcoms in American television history, then nuked her own legacy with one tweet. The original show is fine to watch. She is not fine."
+  }
+}

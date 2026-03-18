@@ -1,0 +1,49 @@
+{
+  "id": "steven-tyler",
+  "name": "Steven Tyler",
+  "domain": "music",
+  "sub_domain": "Rock",
+  "portrait": "steven-tyler.jpg",
+  "acts": [
+    {
+      "description": "Obtained legal guardianship of 16-year-old Julia Holcomb in 1973 to have a relationship with her; she was 16, he was 25",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.5,
+      "reversibility": 0.8,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Obtained legal guardianship of 16-year-old Julia Holcomb from her parents to pursue a relationship with her. She lived with him for years. He discussed it in his autobiography as a romantic story.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Dream On", "Walk This Way", "I Don't Want to Miss a Thing"],
+    "summary": "Aerosmith frontman and one of rock's most iconic voices. Walk This Way reshaped hip-hop as well as rock.",
+    "medium_aura": 0.75,
+    "contamination": 0.2,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1973,
+    "year_of_major_works": [1973, 1975, 1998],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Convinced a 16-year-old's parents to let him become her legal guardian so he could date her, and wrote about it as a love story. The parents said yes. None of this was okay then either."
+  }
+}

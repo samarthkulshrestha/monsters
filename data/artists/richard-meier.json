@@ -1,0 +1,49 @@
+{
+  "id": "richard-meier",
+  "name": "Richard Meier",
+  "domain": "architecture",
+  "sub_domain": "Architecture",
+  "portrait": "richard-meier.jpg",
+  "acts": [
+    {
+      "description": "Five women accused him of sexual harassment spanning decades; accusations emerged in 2018",
+      "severity": 0.75,
+      "victim_count": 5,
+      "duration": 0.9,
+      "reversibility": 0.6,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["bodily_autonomy", "coercion", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Five women accused him of groping and sexual harassment over a 25-year period. He stepped down from his firm in 2018.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Getty Center", "The Atheneum", "Barcelona Museum of Contemporary Art"],
+    "summary": "Pritzker Prize-winning architect. White, rectilinear buildings are among the most recognizable of late 20th-century architecture.",
+    "medium_aura": 0.75,
+    "contamination": 0.1,
+    "separability": 0.9
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1990,
+    "year_of_major_works": [1979, 1984, 1997],
+    "accountability_events": ["2018 accusations", "stepped down from firm"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Designed some of the most pristine, precisely controlled spaces in the modern world while spending decades ensuring women in his orbit felt none of that control."
+  }
+}

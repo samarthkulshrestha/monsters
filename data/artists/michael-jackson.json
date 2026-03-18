@@ -1,0 +1,60 @@
+{
+  "id": "michael-jackson",
+  "name": "Michael Jackson",
+  "domain": "music",
+  "sub_domain": "Pop",
+  "portrait": "michael-jackson.jpg",
+  "acts": [
+    {
+      "description": "Documented pattern of child sexual abuse as detailed in Leaving Neverland (Wade Robson, James Safechuck)",
+      "severity": 1.0,
+      "victim_count": 5,
+      "duration": 0.9,
+      "reversibility": 0.95,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Systematic grooming of families to gain access to children",
+      "severity": 0.85,
+      "victim_count": 8,
+      "duration": 0.9,
+      "reversibility": 0.9,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "coercion"]
+    }
+  ],
+  "behavior_summary": "Multiple credible accusations of child sexual abuse spanning decades. The Leaving Neverland documentary detailed extensive, corroborated accounts from Wade Robson and James Safechuck. Jackson was tried and acquitted in 2005 but paid millions in out-of-court settlements.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Thriller", "Off the Wall", "Bad"],
+    "summary": "Arguably the most influential pop artist of the 20th century. Invented modern pop spectacle and transformed the music video into an art form.",
+    "medium_aura": 0.9,
+    "contamination": 0.3,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1988,
+    "year_of_major_works": [1979, 1982, 1987],
+    "accountability_events": ["1993 civil settlement", "2005 criminal acquittal", "2019 Leaving Neverland documentary"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "The greatest pop star who ever lived was, by mounting evidence, a serial predator of children. He's dead, but the estate profits. Thriller still slaps. That's the whole tragedy in one sentence."
+  }
+}

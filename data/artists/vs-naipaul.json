@@ -1,0 +1,60 @@
+{
+  "id": "vs-naipaul",
+  "name": "V.S. Naipaul",
+  "domain": "literature",
+  "sub_domain": "Fiction",
+  "portrait": "vs-naipaul.jpg",
+  "acts": [
+    {
+      "description": "Physically beat his long-term mistress Margaret Murray; documented in Patrick French's authorized biography",
+      "severity": 0.8,
+      "victim_count": 1,
+      "duration": 0.6,
+      "reversibility": 0.7,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.95,
+      "victim_vulnerability": 0.65,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    },
+    {
+      "description": "Contemptuous dismissal of women writers as sentimentalists; deep-seated public misogyny",
+      "severity": 0.5,
+      "victim_count": 5,
+      "duration": 0.9,
+      "reversibility": 0.2,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Nobel laureate who physically abused his mistress over years, detailed in the authorized biography. Also publicly stated women writers were inferior, sentimental, and unworthy of serious consideration.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["A House for Mr Biswas", "In a Free State", "The Enigma of Arrival"],
+    "summary": "Nobel Prize-winning prose stylist. Among the greatest English-language writers of the 20th century by most serious measures.",
+    "medium_aura": 0.75,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1975,
+    "year_of_major_works": [1961, 1971, 1987],
+    "accountability_events": ["2008 authorized biography detailed abuse", "2018 death"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "A Nobel laureate who beat his mistress and believed women couldn't write. His prose is magnificent. His biography reads like a case study in why we sanctify literature's monsters."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "hideo-kojima",
+  "name": "Hideo Kojima",
+  "domain": "games",
+  "sub_domain": "Game Design",
+  "portrait": "hideo-kojima.jpg",
+  "acts": [
+    {
+      "description": "Systematic hypersexualization of female characters in games (Quiet in MGSV, etc.) combined with dismissive 'just understand it later' justification",
+      "severity": 0.3,
+      "victim_count": 2,
+      "duration": 0.7,
+      "reversibility": 0.2,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.3,
+      "categorical_violations": []
+    }
+  ],
+  "behavior_summary": "Consistent pattern of designing female characters in ways that prioritize objectification. Defended Quiet's costume by saying players would 'feel ashamed' once they understood — they didn't.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.5,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 2,
+    "notable_works": ["Metal Gear Solid", "Death Stranding", "Shadow Moses"],
+    "summary": "Visionary auteur game designer who redefined what interactive narrative could be. Genuinely irreplaceable creative voice.",
+    "medium_aura": 0.9,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2015,
+    "year_of_major_works": [1998, 2001, 2019],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Possibly the most important creative figure in video game history who keeps insisting women characters who breathe through their skin need to be half-naked. The games are extraordinary. This part is not."
+  }
+}

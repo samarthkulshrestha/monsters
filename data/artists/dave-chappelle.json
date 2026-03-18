@@ -1,0 +1,49 @@
+{
+  "id": "dave-chappelle",
+  "name": "Dave Chappelle",
+  "domain": "film",
+  "sub_domain": "Stand-Up",
+  "portrait": "dave-chappelle.jpg",
+  "acts": [
+    {
+      "description": "Multiple Netflix specials featuring material widely condemned as transphobic, claiming trans women are not women",
+      "severity": 0.45,
+      "victim_count": 5,
+      "duration": 0.5,
+      "reversibility": 0.2,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Used his Netflix platform to repeatedly punch down at transgender people, framing it as free speech and edgy comedy. Netflix stood by him. The trans community, including his late friend Daphne Dorman, received the fallout.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.45,
+    "consistency": 0.7
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Chappelle's Show", "The Closer", "Sticks & Stones"],
+    "summary": "One of the greatest comedians alive. His older work is genuinely landmark. His recent work has become more about grievance than comedy.",
+    "medium_aura": 0.85,
+    "contamination": 0.6,
+    "separability": 0.45
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2019,
+    "year_of_major_works": [2000, 2004, 2019],
+    "accountability_events": ["2021 The Closer controversy", "Netflix walkout by employees"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Transcendent comedian who decided the most important thing to say with his platform was that trans people make him uncomfortable. The Closer is not edgy, it's just mean — and he's too smart not to know the difference."
+  }
+}

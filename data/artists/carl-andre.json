@@ -1,0 +1,49 @@
+{
+  "id": "carl-andre",
+  "name": "Carl Andre",
+  "domain": "visual art",
+  "sub_domain": "Sculpture",
+  "portrait": "carl-andre.jpg",
+  "acts": [
+    {
+      "description": "Wife and artist Ana Mendieta fell from their 34th-floor apartment in 1985; Andre was tried for murder and acquitted",
+      "severity": 1.0,
+      "victim_count": 1,
+      "duration": 0.05,
+      "reversibility": 1.0,
+      "power_differential": 0.8,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence"]
+    }
+  ],
+  "behavior_summary": "Wife Ana Mendieta died after falling from their apartment window. Andre was tried for second-degree murder and acquitted in 1988. He claimed she jumped; the art world never fully recovered the conversation.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Equivalent VIII", "144 Magnesium Square", "Steel Zinc Plain"],
+    "summary": "Pioneering minimalist sculptor whose floor-level grid works redefined sculpture's relationship to space. Ana Mendieta was also a major artist whose career he outlived.",
+    "medium_aura": 0.6,
+    "contamination": 0.4,
+    "separability": 0.55
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1985,
+    "year_of_major_works": [1966, 1970, 1978],
+    "accountability_events": ["1985 Mendieta's death", "1988 acquittal"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "His wife, also a major artist, fell out of their apartment window. He was acquitted. Her career ended; his continued. The art world has mostly preferred not to dwell on the arithmetic."
+  }
+}

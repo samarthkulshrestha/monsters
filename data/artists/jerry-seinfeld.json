@@ -1,0 +1,49 @@
+{
+  "id": "jerry-seinfeld",
+  "name": "Jerry Seinfeld",
+  "domain": "television",
+  "sub_domain": "Comedy",
+  "portrait": "jerry-seinfeld.jpg",
+  "acts": [
+    {
+      "description": "Dated Shoshanna Lonstein when she was 17 and he was 38; relationship was public and he has never expressed regret",
+      "severity": 0.65,
+      "victim_count": 1,
+      "duration": 0.4,
+      "reversibility": 0.4,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.85,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Began dating 17-year-old Shoshanna Lonstein in 1993 when he was 38, at the height of Seinfeld's fame. The relationship was public, photographed by paparazzi, and considered unremarkable at the time.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.45,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Seinfeld", "Comedians in Cars Getting Coffee", "Bee Movie"],
+    "summary": "One of the most successful comedians in history. Seinfeld redefined the American sitcom and his stand-up remains influential.",
+    "medium_aura": 0.8,
+    "contamination": 0.05,
+    "separability": 0.9
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1993,
+    "year_of_major_works": [1989, 1993, 2017],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "At 38 and the most famous comedian in America, he started dating a 17-year-old. She was in high school. He was on the cover of every magazine. Nobody batted an eye. We're batting an eye now."
+  }
+}

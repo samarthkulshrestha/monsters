@@ -1,0 +1,49 @@
+{
+  "id": "russell-brand",
+  "name": "Russell Brand",
+  "domain": "film",
+  "sub_domain": "Comedy/Acting",
+  "portrait": "russell-brand.jpg",
+  "acts": [
+    {
+      "description": "Four women alleged rape, sexual assault, and emotional abuse in Channel 4 / Sunday Times investigation",
+      "severity": 0.95,
+      "victim_count": 4,
+      "duration": 0.5,
+      "reversibility": 0.9,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.75,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "2023 Channel 4 documentary and Sunday Times investigation featured four women alleging rape and sexual assault. He denied all claims. His YouTube/Rumble audience largely rallied to his defense, framing it as political persecution.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 6,
+    "influence": 6,
+    "replaceability": 6,
+    "notable_works": ["Get Him to the Greek", "Arthur", "Forgetting Sarah Marshall"],
+    "summary": "Charismatic comedian and actor who reinvented himself as a conspiracy-adjacent political commentator before the allegations.",
+    "medium_aura": 0.55,
+    "contamination": 0.2,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2007,
+    "year_of_major_works": [2008, 2010, 2011],
+    "accountability_events": ["2023 Channel 4/Sunday Times investigation"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Spent years building a brand around spiritual awakening and authentic truth-telling, then four women accused him of rape. He responded by telling his followers it was a mainstream media conspiracy. It's always a conspiracy."
+  }
+}

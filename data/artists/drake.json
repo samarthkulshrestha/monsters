@@ -1,0 +1,49 @@
+{
+  "id": "drake",
+  "name": "Drake",
+  "domain": "music",
+  "sub_domain": "Hip-Hop",
+  "portrait": "drake.jpg",
+  "acts": [
+    {
+      "description": "Documented texting relationship with Millie Bobby Brown beginning when she was around 14; Instagram DMs surfaced",
+      "severity": 0.55,
+      "victim_count": 2,
+      "duration": 0.3,
+      "reversibility": 0.4,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["acts_against_children"]
+    }
+  ],
+  "behavior_summary": "Millie Bobby Brown described texting relationship with Drake starting young. Screenshots and public statements point to a pattern of messaging underage female celebrities. No charges.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.4,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 4,
+    "notable_works": ["Take Care", "Nothing Was the Same", "Certified Lover Boy"],
+    "summary": "One of the most commercially successful artists of the streaming era. Defined a decade of pop-influenced hip-hop.",
+    "medium_aura": 0.75,
+    "contamination": 0.15,
+    "separability": 0.8
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2017,
+    "year_of_major_works": [2011, 2013, 2021],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "The most streamed artist on Spotify has a documented habit of initiating text relationships with underage girls and then releasing songs about them when they grow up. That's not romantic. That's a pattern."
+  }
+}

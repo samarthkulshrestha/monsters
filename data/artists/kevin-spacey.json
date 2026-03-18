@@ -1,0 +1,60 @@
+{
+  "id": "kevin-spacey",
+  "name": "Kevin Spacey",
+  "domain": "film",
+  "sub_domain": "Acting",
+  "portrait": "kevin-spacey.jpg",
+  "acts": [
+    {
+      "description": "Anthony Rapp accused him of making sexual advances when Rapp was 14; Spacey apologized 'if' anything happened while coming out as gay",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.05,
+      "reversibility": 0.75,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy"]
+    },
+    {
+      "description": "Multiple subsequent sexual assault accusations from men over decades",
+      "severity": 0.85,
+      "victim_count": 8,
+      "duration": 0.8,
+      "reversibility": 0.8,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.65,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Anthony Rapp's 2017 accusation prompted dozens more. Criminal charges in the UK resulted in acquittal. Civil case from Anthony Rapp was dismissed. Career destroyed regardless.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 8,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["American Beauty", "The Usual Suspects", "House of Cards"],
+    "summary": "Two-time Oscar winner, one of the most technically skilled actors of his generation. His performances are still on screen; his career is not.",
+    "medium_aura": 0.7,
+    "contamination": 0.35,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1986,
+    "year_of_major_works": [1995, 1999, 2013],
+    "accountability_events": ["2017 Anthony Rapp accusation", "2022 UK criminal trial", "2023 acquittal"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Gave one of cinema's great villainous performances in The Usual Suspects and then spent decades apparently living the role offscreen. Acquitted, but the accusations came from everywhere."
+  }
+}

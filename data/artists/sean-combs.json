@@ -1,0 +1,60 @@
+{
+  "id": "sean-combs",
+  "name": "Sean \"Diddy\" Combs",
+  "domain": "music",
+  "sub_domain": "Hip-Hop/Producing",
+  "portrait": "sean-combs.jpg",
+  "acts": [
+    {
+      "description": "Federal indictment on sex trafficking, racketeering, and transportation for prostitution charges; multiple civil suits from victims",
+      "severity": 1.0,
+      "victim_count": 9,
+      "duration": 0.9,
+      "reversibility": 0.95,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.85,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion", "violence"]
+    },
+    {
+      "description": "Hotel surveillance footage showing physical assault of then-girlfriend Cassie Ventura",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.3,
+      "reversibility": 0.7,
+      "power_differential": 0.9,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    }
+  ],
+  "behavior_summary": "Arrested in 2024 on federal sex trafficking and racketeering charges. Hotel footage of him assaulting Cassie Ventura was published. Multiple civil suits allege coerced sex acts and abuse going back years.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.05,
+    "consistency": 0.95
+  },
+  "art": {
+    "significance": 8,
+    "influence": 9,
+    "replaceability": 4,
+    "notable_works": ["I'll Be Missing You", "Can't Stop Won't Stop", "Bad Boy Records roster"],
+    "summary": "Built one of hip-hop's most influential labels and defined 90s hip-hop luxury. Discovered and developed multiple generational artists.",
+    "medium_aura": 0.6,
+    "contamination": 0.3,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2004,
+    "year_of_major_works": [1994, 1997, 2001],
+    "accountability_events": ["2016 hotel assault footage", "2023 Cassie Ventura lawsuit", "2024 federal arrest"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Federal sex trafficking charges, hotel assault footage, dozens of civil suits, and a rap sheet that suggests his entire social infrastructure was built around coercion. He is currently awaiting trial."
+  }
+}

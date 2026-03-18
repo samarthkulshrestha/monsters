@@ -1,0 +1,49 @@
+{
+  "id": "elvis-presley",
+  "name": "Elvis Presley",
+  "domain": "music",
+  "sub_domain": "Rock & Roll",
+  "portrait": "elvis-presley.jpg",
+  "acts": [
+    {
+      "description": "Met and began pursuing Priscilla Beaulieu when she was 14 and he was 24; relationship was enabled by her parents and the military establishment",
+      "severity": 0.8,
+      "victim_count": 1,
+      "duration": 0.6,
+      "reversibility": 0.75,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.95,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Met Priscilla when she was 14 at a party in Germany; the relationship was considered romantic from early on. Married her when she was 21. She has given various accounts over the years but the power differential at the time of meeting was extreme.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Hound Dog", "Jailhouse Rock", "Suspicious Minds"],
+    "summary": "The King. Catalyzing force of rock and roll who transformed popular music. His importance is unambiguous.",
+    "medium_aura": 0.95,
+    "contamination": 0.2,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1959,
+    "year_of_major_works": [1956, 1958, 1969],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "The King of Rock and Roll met his future wife when she was 14. A different era, people say, as if that changes what 14 means. The music is eternal. The math is not complicated."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "xxxtentacion",
+  "name": "XXXTentacion",
+  "domain": "music",
+  "sub_domain": "Hip-Hop",
+  "portrait": "xxxtentacion.jpg",
+  "acts": [
+    {
+      "description": "Documented domestic violence against pregnant girlfriend Geneva Ayala, including false imprisonment and assault",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.4,
+      "reversibility": 0.8,
+      "power_differential": 0.85,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.9,
+      "categorical_violations": ["violence", "bodily_autonomy", "coercion"]
+    },
+    {
+      "description": "Witness intimidation and threatening behavior toward accusers",
+      "severity": 0.7,
+      "victim_count": 2,
+      "duration": 0.3,
+      "reversibility": 0.6,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["violence", "coercion"]
+    }
+  ],
+  "behavior_summary": "Facing 15 charges of robbery, assault, and domestic violence at the time of his murder in 2018. Documented abuse of pregnant girlfriend including false imprisonment. His death transformed him into a martyr, largely erasing the record.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 6,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["SAD!", "Moonlight", "Jocelyn Flores"],
+    "summary": "Polarizing SoundCloud rapper who influenced a generation of lo-fi emotionally raw hip-hop. Died at 20, already facing serious charges.",
+    "medium_aura": 0.55,
+    "contamination": 0.3,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2016,
+    "year_of_major_works": [2017, 2018],
+    "accountability_events": ["2016 arrest", "2018 murder before trial"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Died before he could be held accountable, and the internet promptly canonized him. His victim is still alive and has to watch the tributes roll in every year."
+  }
+}

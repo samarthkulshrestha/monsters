@@ -1,0 +1,49 @@
+{
+  "id": "ai-weiwei",
+  "name": "Ai Weiwei",
+  "domain": "visual art",
+  "sub_domain": "Conceptual Art",
+  "portrait": "ai-weiwei.jpg",
+  "acts": [
+    {
+      "description": "Accusation of sexual coercion by former assistant Wang Fen and others",
+      "severity": 0.55,
+      "victim_count": 2,
+      "duration": 0.3,
+      "reversibility": 0.5,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["bodily_autonomy", "coercion"]
+    }
+  ],
+  "behavior_summary": "Accusations of sexual coercion from former assistant. He denied them. The accusations have received limited attention compared to his political profile.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.45,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Sunflower Seeds", "Remembering", "Human Flow"],
+    "summary": "One of the most globally significant political artists alive. His work on authoritarianism, surveillance, and refugee crisis is genuinely important.",
+    "medium_aura": 0.8,
+    "contamination": 0.1,
+    "separability": 0.85
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2017,
+    "year_of_major_works": [2008, 2011, 2017],
+    "accountability_events": ["2017 accusation"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Makes essential work about power and its abuses. The accusation that he misused his own power quietly complicates that narrative. It has received remarkably little coverage."
+  }
+}

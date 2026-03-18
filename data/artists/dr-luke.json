@@ -1,0 +1,60 @@
+{
+  "id": "dr-luke",
+  "name": "Dr. Luke",
+  "domain": "music",
+  "sub_domain": "Pop Production",
+  "portrait": "dr-luke.jpg",
+  "acts": [
+    {
+      "description": "Kesha's allegations of rape, sexual assault, and psychological abuse over a decade-long professional relationship",
+      "severity": 0.95,
+      "victim_count": 1,
+      "duration": 0.85,
+      "reversibility": 0.9,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.8,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Defamation lawsuit against Kesha, weaponizing legal system to silence accuser",
+      "severity": 0.6,
+      "victim_count": 1,
+      "duration": 0.7,
+      "reversibility": 0.5,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["coercion"]
+    }
+  ],
+  "behavior_summary": "Kesha sued Dr. Luke for sexual assault, rape, and emotional abuse. He counter-sued for defamation. After years of legal battles, Kesha dropped her assault claims to settle. He has denied all allegations and continues to produce hit records.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Since U Been Gone", "Roar", "Timber"],
+    "summary": "One of the most commercially successful pop producers of the 2000s and 2010s, responsible for dozens of #1 hits.",
+    "medium_aura": 0.3,
+    "contamination": 0.2,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2005,
+    "year_of_major_works": [2004, 2010, 2014],
+    "accountability_events": ["2014 lawsuit filed", "2023 settlement"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "His accuser spent nearly a decade in court trying to escape his label and his shadow. He is still making hits. The music industry has decided that's fine."
+  }
+}

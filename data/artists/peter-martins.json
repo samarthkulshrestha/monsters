@@ -1,0 +1,49 @@
+{
+  "id": "peter-martins",
+  "name": "Peter Martins",
+  "domain": "dance",
+  "sub_domain": "Ballet",
+  "portrait": "peter-martins.jpg",
+  "acts": [
+    {
+      "description": "Multiple accusations of physical and sexual abuse from dancers under his direction at the New York City Ballet",
+      "severity": 0.85,
+      "victim_count": 6,
+      "duration": 0.85,
+      "reversibility": 0.8,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.75,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["violence", "bodily_autonomy", "coercion", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Longtime director of the New York City Ballet. Multiple dancers accused him of physical and sexual abuse. He retired in 2018 during an investigation. The investigation found a toxic culture but he faced no criminal charges.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Calcium Light Night", "Barber Violin Concerto", "Black and White"],
+    "summary": "Successor to Balanchine at NYCB, both as dancer and director. Ran one of the world's premier ballet companies for three decades.",
+    "medium_aura": 0.65,
+    "contamination": 0.3,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1990,
+    "year_of_major_works": [1978, 1988, 1996],
+    "accountability_events": ["2018 accusations", "2018 retirement during investigation"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Ran one of the world's greatest ballet companies for 30 years and used that power to abuse the dancers who depended on him for their careers. The tutus don't change what happened."
+  }
+}

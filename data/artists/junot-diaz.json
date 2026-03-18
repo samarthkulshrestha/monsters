@@ -1,0 +1,49 @@
+{
+  "id": "junot-diaz",
+  "name": "Junot Díaz",
+  "domain": "literature",
+  "sub_domain": "Fiction",
+  "portrait": "junot-diaz.jpg",
+  "acts": [
+    {
+      "description": "Multiple women accused him of forceful kissing, verbal abuse, and misogynist behavior at literary events",
+      "severity": 0.6,
+      "victim_count": 5,
+      "duration": 0.6,
+      "reversibility": 0.5,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["bodily_autonomy", "coercion"]
+    }
+  ],
+  "behavior_summary": "Multiple women in literary circles accused him of forceful kissing without consent and sustained verbal abuse. He acknowledged some behaviors in an essay that framed them as trauma responses.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["The Brief Wondrous Life of Oscar Wao", "Drown", "This Is How You Lose Her"],
+    "summary": "Pulitzer-winning novelist who transformed the literary depiction of the Dominican diaspora. His prose is genuinely dazzling.",
+    "medium_aura": 0.8,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2000,
+    "year_of_major_works": [1996, 2007, 2012],
+    "accountability_events": ["2018 MeToo accusations"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Wrote one of the great American novels and spent years in literary spaces behaving badly toward women who were trying to get his attention as a writer. The talent is real; so is the pattern."
+  }
+}

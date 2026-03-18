@@ -1,0 +1,71 @@
+{
+  "id": "walt-disney",
+  "name": "Walt Disney",
+  "domain": "film",
+  "sub_domain": "Animation",
+  "portrait": "walt-disney.jpg",
+  "acts": [
+    {
+      "description": "Named as friendly HUAC witness in 1947; provided names of suspected Communist sympathizers in the industry",
+      "severity": 0.65,
+      "victim_count": 8,
+      "duration": 0.3,
+      "reversibility": 0.7,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["collaboration_with_oppression", "coercion"]
+    },
+    {
+      "description": "Violently broke the 1941 animators' strike; fired organizers and blacklisted union members",
+      "severity": 0.7,
+      "victim_count": 9,
+      "duration": 0.3,
+      "reversibility": 0.6,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["coercion", "collaboration_with_oppression"]
+    },
+    {
+      "description": "Credible allegations of antisemitism documented by multiple contemporaries and biographers",
+      "severity": 0.55,
+      "victim_count": 5,
+      "duration": 0.7,
+      "reversibility": 0.3,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.3,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "HUAC informant who named colleagues. Broke unions and blacklisted workers. Multiple biographers document antisemitism. Also built arguably the most influential entertainment company in history.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.75
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Snow White and the Seven Dwarfs", "Fantasia", "Bambi"],
+    "summary": "Invented the animated feature film and built a cultural empire that shaped the imagination of essentially every subsequent generation.",
+    "medium_aura": 0.9,
+    "contamination": 0.35,
+    "separability": 0.6
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1947,
+    "year_of_major_works": [1937, 1940, 1942],
+    "accountability_events": ["1941 animators' strike", "1947 HUAC testimony"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Invented childhood magic for the 20th century and ratted out his employees to a congressional witch hunt. The castle is real; so is the HUAC transcript."
+  }
+}

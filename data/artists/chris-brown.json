@@ -1,0 +1,60 @@
+{
+  "id": "chris-brown",
+  "name": "Chris Brown",
+  "domain": "music",
+  "sub_domain": "R&B",
+  "portrait": "chris-brown.jpg",
+  "acts": [
+    {
+      "description": "Felony assault of Rihanna in 2009, leaving her with visible injuries before the Grammy Awards",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 0.7,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.95,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    },
+    {
+      "description": "Multiple subsequent assault allegations from other women",
+      "severity": 0.75,
+      "victim_count": 5,
+      "duration": 0.7,
+      "reversibility": 0.7,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    }
+  ],
+  "behavior_summary": "Pleaded guilty to felony assault of Rihanna in 2009. Multiple subsequent abuse allegations from other women. Career largely unaffected, suggesting the industry and public chose to forgive — or ignore.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 7,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["Kiss Kiss", "Forever", "With You"],
+    "summary": "Talented R&B performer whose early career showed genuine promise before his own choices overshadowed everything.",
+    "medium_aura": 0.5,
+    "contamination": 0.2,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2009,
+    "year_of_major_works": [2005, 2007, 2011],
+    "accountability_events": ["2009 felony assault plea", "2017 assault allegations"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Beat his girlfriend so badly the photos made headlines, pleaded guilty, served no jail time, and still headlines festivals. The music industry's response to domestic violence has been a 15-year masterclass in looking the other way."
+  }
+}

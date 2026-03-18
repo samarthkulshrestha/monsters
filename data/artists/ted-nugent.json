@@ -1,0 +1,60 @@
+{
+  "id": "ted-nugent",
+  "name": "Ted Nugent",
+  "domain": "music",
+  "sub_domain": "Rock",
+  "portrait": "ted-nugent.jpg",
+  "acts": [
+    {
+      "description": "Self-described relationships with underage girls in the 1970s; became legal guardian of 17-year-old girlfriend Pele Massa",
+      "severity": 0.85,
+      "victim_count": 3,
+      "duration": 0.5,
+      "reversibility": 0.8,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 0.95,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Decades of racist, sexist public statements and threats against political figures",
+      "severity": 0.55,
+      "victim_count": 5,
+      "duration": 0.9,
+      "reversibility": 0.3,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Boasted about relationships with underage girls in the 1970s, including becoming the legal guardian of 17-year-old Pele Massa to circumvent consent laws. Decades of racist, misogynist public statements.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 6,
+    "influence": 5,
+    "replaceability": 6,
+    "notable_works": ["Cat Scratch Fever", "Stranglehold", "Great White Buffalo"],
+    "summary": "Hard rock guitarist with a handful of genuine classic rock staples. Better remembered now for political extremism than music.",
+    "medium_aura": 0.4,
+    "contamination": 0.4,
+    "separability": 0.5
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1978,
+    "year_of_major_works": [1975, 1977, 1980],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Bragged publicly about having sex with underage girls and used legal guardianship as a workaround for statutory rape laws. Cat Scratch Fever will never sound the same once you know what the cat scratch was."
+  }
+}

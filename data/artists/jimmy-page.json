@@ -1,0 +1,49 @@
+{
+  "id": "jimmy-page",
+  "name": "Jimmy Page",
+  "domain": "music",
+  "sub_domain": "Rock",
+  "portrait": "jimmy-page.jpg",
+  "acts": [
+    {
+      "description": "Sexual relationship with Lori Maddox beginning when she was 14; reportedly kept her isolated in hotels during the relationship",
+      "severity": 0.95,
+      "victim_count": 1,
+      "duration": 0.5,
+      "reversibility": 0.85,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.85,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Pursued and had a relationship with Lori Maddox beginning when she was 14. She has spoken openly about it. He has never addressed it. Led Zeppelin's legacy machinery has ensured near-total immunity.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 2,
+    "notable_works": ["Whole Lotta Love", "Stairway to Heaven", "Kashmir"],
+    "summary": "One of the greatest rock guitarists in history. Led Zeppelin is foundational to essentially all heavy music. The guitar work is genuinely transcendent.",
+    "medium_aura": 0.95,
+    "contamination": 0.2,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1972,
+    "year_of_major_works": [1969, 1971, 1975],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Stairway to Heaven is one of the greatest pieces of music recorded in the 20th century. He has never been asked to answer for the 14-year-old. These are both true."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "bryan-singer",
+  "name": "Bryan Singer",
+  "domain": "film",
+  "sub_domain": "Directing",
+  "portrait": "bryan-singer.jpg",
+  "acts": [
+    {
+      "description": "Multiple accusers alleged sexual assault of underage boys at industry parties spanning decades",
+      "severity": 1.0,
+      "victim_count": 7,
+      "duration": 0.85,
+      "reversibility": 0.9,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Atlantic investigation and multiple civil lawsuits alleged he sexually assaulted underage boys at industry parties. Fired from Bohemian Rhapsody mid-production. No criminal charges.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.05,
+    "consistency": 0.95
+  },
+  "art": {
+    "significance": 8,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["The Usual Suspects", "X-Men", "X2"],
+    "summary": "Directed The Usual Suspects, one of the great twist films, and launched the modern superhero film era with X-Men.",
+    "medium_aura": 0.65,
+    "contamination": 0.2,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1997,
+    "year_of_major_works": [1995, 2000, 2003],
+    "accountability_events": ["2014 civil lawsuit", "2019 Atlantic investigation", "fired from Bohemian Rhapsody"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Directed some of the biggest films of the last 30 years while, according to multiple accusers, sexually assaulting underage boys at parties. Hollywood kept hiring him until the Atlantic made that untenable."
+  }
+}

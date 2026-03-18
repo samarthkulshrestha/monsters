@@ -1,0 +1,49 @@
+{
+  "id": "amber-heard",
+  "name": "Amber Heard",
+  "domain": "film",
+  "sub_domain": "Acting",
+  "portrait": "amber-heard.jpg",
+  "acts": [
+    {
+      "description": "US jury found she defamed Depp in a Washington Post op-ed; audio recordings suggest mutual physical altercations",
+      "severity": 0.65,
+      "victim_count": 1,
+      "duration": 0.4,
+      "reversibility": 0.5,
+      "power_differential": 0.6,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["fraud_or_theft", "violence"]
+    }
+  ],
+  "behavior_summary": "US jury found her liable for defamation after 2018 op-ed. Audio recordings released during trial suggest she also committed physical violence. UK court found Depp had committed abuse; she was a victim too in that proceeding.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.55
+  },
+  "art": {
+    "significance": 5,
+    "influence": 4,
+    "replaceability": 8,
+    "notable_works": ["Aquaman", "The Rum Diary", "Magic Mike XXL"],
+    "summary": "Mid-tier actress whose career has been largely defined by the Depp trial. Limited artistic legacy.",
+    "medium_aura": 0.4,
+    "contamination": 0.1,
+    "separability": 0.9
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2018,
+    "year_of_major_works": [2018, 2011],
+    "accountability_events": ["2020 UK court (Depp ruled abuser)", "2022 US defamation verdict against Heard"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Found liable for defamation after accusing an abusive man of abuse. The internet turned the trial into a sport and she lost the public verdict by a landslide before the jury had breakfast. The truth is probably messier than either side wants."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "nate-parker",
+  "name": "Nate Parker",
+  "domain": "film",
+  "sub_domain": "Directing",
+  "portrait": "nate-parker.jpg",
+  "acts": [
+    {
+      "description": "1999 rape accusation, acquitted at trial; accuser died by suicide in 2012; co-defendant Jean Celestin was convicted",
+      "severity": 0.9,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 0.95,
+      "power_differential": 0.8,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Acquitted of rape in 1999 while at Penn State. Co-accused Jean Celestin was convicted. The accuser later took her own life. Parker's Birth of a Nation premiere at Sundance 2016 was derailed when the case resurfaced.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.2,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 6,
+    "influence": 5,
+    "replaceability": 6,
+    "notable_works": ["The Birth of a Nation (2016)"],
+    "summary": "The Birth of a Nation was a Sundance sensation before the past resurfaced. His career has not recovered.",
+    "medium_aura": 0.45,
+    "contamination": 0.2,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1999,
+    "year_of_major_works": [2016],
+    "accountability_events": ["1999 acquittal", "2012 accuser's death", "2016 Sundance controversy"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Acquitted is not the same as innocent. His accuser is dead. He gave interviews about how difficult the experience was for him."
+  }
+}

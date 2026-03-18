@@ -1,0 +1,60 @@
+{
+  "id": "quentin-tarantino",
+  "name": "Quentin Tarantino",
+  "domain": "film",
+  "sub_domain": "Directing",
+  "portrait": "quentin-tarantino.jpg",
+  "acts": [
+    {
+      "description": "Admitted to knowing about Harvey Weinstein's behavior for decades and did nothing; defended Roman Polanski publicly",
+      "severity": 0.6,
+      "victim_count": 8,
+      "duration": 0.8,
+      "reversibility": 0.3,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.4,
+      "victim_vulnerability": 0.65,
+      "categorical_violations": ["collaboration_with_oppression"]
+    },
+    {
+      "description": "2003 Howard Stern interview defending Roman Polanski's rape of a 13-year-old as not 'rape rape'",
+      "severity": 0.55,
+      "victim_count": 1,
+      "duration": 0.1,
+      "reversibility": 0.2,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.3,
+      "categorical_violations": ["collaboration_with_oppression"]
+    }
+  ],
+  "behavior_summary": "Admitted to knowing about Weinstein's predatory behavior and staying silent for decades. Publicly defended Polanski on Howard Stern. Apologized for the Polanski comments years later.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 9,
+    "influence": 10,
+    "replaceability": 2,
+    "notable_works": ["Pulp Fiction", "Inglourious Basterds", "Reservoir Dogs"],
+    "summary": "Possibly the most influential American filmmaker of the past 30 years. Every crime film, every pop-culture-saturated script owes him a debt.",
+    "medium_aura": 0.9,
+    "contamination": 0.15,
+    "separability": 0.8
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2003,
+    "year_of_major_works": [1992, 1994, 2009],
+    "accountability_events": ["2003 Polanski defense on Stern", "2017 Weinstein admission"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Knew Weinstein was a predator for 25 years and made movies with him anyway. Also went on Howard Stern to explain why raping a 13-year-old isn't 'rape rape.' Pulp Fiction remains a masterpiece. The moral ledger is messier."
+  }
+}

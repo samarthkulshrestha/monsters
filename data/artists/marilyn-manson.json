@@ -1,0 +1,49 @@
+{
+  "id": "marilyn-manson",
+  "name": "Marilyn Manson",
+  "domain": "music",
+  "sub_domain": "Rock",
+  "portrait": "marilyn-manson.jpg",
+  "acts": [
+    {
+      "description": "Evan Rachel Wood and multiple other women accused him of rape, torture, psychological abuse, and sexual slavery",
+      "severity": 1.0,
+      "victim_count": 8,
+      "duration": 0.8,
+      "reversibility": 0.95,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.85,
+      "victim_vulnerability": 0.8,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "violence", "coercion"]
+    }
+  ],
+  "behavior_summary": "Evan Rachel Wood and at least seven other women filed detailed accusations of rape, sexual torture, and systematic psychological abuse. His record label dropped him; his talent agency and manager severed ties.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 7,
+    "influence": 8,
+    "replaceability": 5,
+    "notable_works": ["Antichrist Superstar", "Beautiful People", "The Dope Show"],
+    "summary": "Shock-rock provocateur who defined 1990s transgressive rock. The persona and the crimes may be harder to separate than most.",
+    "medium_aura": 0.6,
+    "contamination": 0.7,
+    "separability": 0.25
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2007,
+    "year_of_major_works": [1996, 1998, 2000],
+    "accountability_events": ["2021 multiple accusers went public", "dropped by label and management"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "He built a career on transgression, so it's almost poetic that the worst transgressions were real. When the shock-rock persona and the actual documented abuse become indistinguishable, you have a problem."
+  }
+}

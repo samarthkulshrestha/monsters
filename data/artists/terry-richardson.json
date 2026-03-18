@@ -1,0 +1,49 @@
+{
+  "id": "terry-richardson",
+  "name": "Terry Richardson",
+  "domain": "visual art",
+  "sub_domain": "Fashion Photography",
+  "portrait": "terry-richardson.jpg",
+  "acts": [
+    {
+      "description": "Dozens of models and subjects accused him of coercive sexual behavior during shoots, using professional power to exploit",
+      "severity": 0.9,
+      "victim_count": 9,
+      "duration": 0.85,
+      "reversibility": 0.8,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.7,
+      "victim_vulnerability": 0.75,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "Multiple models accused him of coercive sexual behavior during shoots, treating access to his lens as a transactional currency. Major fashion houses and publications eventually distanced themselves.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 7,
+    "influence": 7,
+    "replaceability": 6,
+    "notable_works": ["Terry World (book)", "Covers for Rolling Stone, Vogue"],
+    "summary": "Defined an era of snapshot-style fashion photography. His aesthetic is everywhere, now largely stripped of his name.",
+    "medium_aura": 0.5,
+    "contamination": 0.8,
+    "separability": 0.25
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2000,
+    "year_of_major_works": [1995, 2000, 2010],
+    "accountability_events": ["2017 fashion industry blacklisting after MeToo"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "His entire aesthetic was the exploitation: the point of the photos was that the subjects were uncomfortable and he had the power. The art and the abuse were the same thing."
+  }
+}

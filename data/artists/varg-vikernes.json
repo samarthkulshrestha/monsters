@@ -1,0 +1,71 @@
+{
+  "id": "varg-vikernes",
+  "name": "Varg Vikernes",
+  "domain": "music",
+  "sub_domain": "Black Metal",
+  "portrait": "varg-vikernes.jpg",
+  "acts": [
+    {
+      "description": "Convicted of murdering fellow musician Euronymous in 1993",
+      "severity": 1.0,
+      "victim_count": 1,
+      "duration": 0.05,
+      "reversibility": 1.0,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.8,
+      "victim_vulnerability": 0.4,
+      "categorical_violations": ["violence"]
+    },
+    {
+      "description": "Convicted of burning multiple Norwegian churches in 1992-1993",
+      "severity": 0.8,
+      "victim_count": 3,
+      "duration": 0.3,
+      "reversibility": 0.8,
+      "power_differential": 0.3,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.3,
+      "categorical_violations": ["violence"]
+    },
+    {
+      "description": "Prolific white supremacist ideologue; neo-Nazi content creation continuing to present day",
+      "severity": 0.7,
+      "victim_count": 5,
+      "duration": 1.0,
+      "reversibility": 0.5,
+      "power_differential": 0.5,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "Convicted murderer (killed Euronymous, 1993), convicted arsonist (multiple church burnings), and prolific white supremacist propagandist. Served 15 years. Now lives in France producing neo-Nazi content.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.05,
+    "consistency": 0.95
+  },
+  "art": {
+    "significance": 7,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Filosofem", "Det Som Engang Var", "Burzum"],
+    "summary": "Foundational figure in Norwegian black metal. Atmospheric, lo-fi recordings that defined the genre's aesthetic. Made while in prison.",
+    "medium_aura": 0.6,
+    "contamination": 0.75,
+    "separability": 0.2
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1993,
+    "year_of_major_works": [1992, 1994, 1996],
+    "accountability_events": ["1994 conviction for murder and arson", "2009 release from prison"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Convicted murderer, convicted arsonist, and practicing neo-Nazi who made some genuinely influential records. The ideology is in the music. This is not a close call."
+  }
+}

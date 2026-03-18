@@ -1,0 +1,49 @@
+{
+  "id": "mark-wahlberg",
+  "name": "Mark Wahlberg",
+  "domain": "film",
+  "sub_domain": "Acting",
+  "portrait": "mark-wahlberg.jpg",
+  "acts": [
+    {
+      "description": "At 16: two racist hate crime attacks on Vietnamese men, blinding one in one eye and attacking another while using slurs",
+      "severity": 0.85,
+      "victim_count": 2,
+      "duration": 0.1,
+      "reversibility": 0.9,
+      "power_differential": 0.7,
+      "relationship_proximity": 0.2,
+      "victim_vulnerability": 0.6,
+      "categorical_violations": ["violence", "hate_speech"]
+    }
+  ],
+  "behavior_summary": "At 16, committed two violent hate crime attacks on Vietnamese men, permanently blinding one. Served 45 days of a 2-year sentence. Applied for a pardon in 2014; application was withdrawn.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.4,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 6,
+    "influence": 5,
+    "replaceability": 6,
+    "notable_works": ["Boogie Nights", "The Departed", "Lone Survivor"],
+    "summary": "Major Hollywood action star with genuine dramatic range. Boogie Nights is his best work by a large margin.",
+    "medium_aura": 0.55,
+    "contamination": 0.1,
+    "separability": 0.85
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1988,
+    "year_of_major_works": [1997, 2006, 2013],
+    "accountability_events": ["1988 assault conviction", "45-day sentence", "2014 pardon application withdrawn"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Blinded a man in a hate crime at 16, served 45 days, and went on to become one of Hollywood's highest paid actors. His victim still can't see out of that eye."
+  }
+}

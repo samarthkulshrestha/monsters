@@ -1,0 +1,49 @@
+{
+  "id": "david-bowie",
+  "name": "David Bowie",
+  "domain": "music",
+  "sub_domain": "Rock/Pop",
+  "portrait": "david-bowie.jpg",
+  "acts": [
+    {
+      "description": "Multiple accounts of sexual encounters with underage groupies Lori Maddox and others in the early 1970s",
+      "severity": 0.85,
+      "victim_count": 3,
+      "duration": 0.3,
+      "reversibility": 0.85,
+      "power_differential": 1.0,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.95,
+      "categorical_violations": ["acts_against_children", "bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Lori Maddox and other sources describe sexual encounters with Bowie when they were 13-15 years old. He was in his mid-twenties and an international superstar. He died in 2016 before full reckoning.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 10,
+    "influence": 10,
+    "replaceability": 1,
+    "notable_works": ["Ziggy Stardust", "Heroes", "Station to Station"],
+    "summary": "One of the greatest artists in rock history. Constant reinvention, enormous influence on music, fashion, and gender expression.",
+    "medium_aura": 0.95,
+    "contamination": 0.2,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1973,
+    "year_of_major_works": [1972, 1976, 1983],
+    "accountability_events": []
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Ziggy Stardust. Heroes. Died beloved by the entire world. Also, according to multiple first-hand accounts, had sex with girls as young as 13. The grief and the accounting have yet to coexist."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "floyd-mayweather",
+  "name": "Floyd Mayweather",
+  "domain": "sports",
+  "sub_domain": "Boxing",
+  "portrait": "floyd-mayweather.jpg",
+  "acts": [
+    {
+      "description": "Multiple domestic violence convictions spanning two decades; served 90-day sentence in 2012",
+      "severity": 0.9,
+      "victim_count": 5,
+      "duration": 0.8,
+      "reversibility": 0.7,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.95,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    }
+  ],
+  "behavior_summary": "Multiple domestic violence convictions. Served 90 days in jail in 2012. Victims included multiple partners over two decades. Boxing's promotional machinery and his undefeated record provided a shield.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 2,
+    "notable_works": ["vs Manny Pacquiao", "vs Oscar De La Hoya", "vs Canelo Alvarez"],
+    "summary": "Technically the greatest defensive boxer of his era, arguably ever. 50-0 record. The Money Mayweather persona was a genuine cultural phenomenon.",
+    "medium_aura": 0.7,
+    "contamination": 0.1,
+    "separability": 0.85
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2002,
+    "year_of_major_works": [2007, 2013, 2015],
+    "accountability_events": ["multiple DV convictions", "2012 90-day jail sentence"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Went 50-0 in the ring and had five domestic violence convictions outside it. The greatest boxer of his era hit women who weren't trying to fight back. The scorecards don't include that column."
+  }
+}

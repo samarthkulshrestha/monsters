@@ -1,0 +1,49 @@
+{
+  "id": "jerry-lee-lewis",
+  "name": "Jerry Lee Lewis",
+  "domain": "music",
+  "sub_domain": "Rock & Roll",
+  "portrait": "jerry-lee-lewis.jpg",
+  "acts": [
+    {
+      "description": "Married his 13-year-old first cousin Myra Gale Brown in 1957 while still married to his previous wife; openly admitted it",
+      "severity": 0.95,
+      "victim_count": 1,
+      "duration": 0.6,
+      "reversibility": 0.8,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.95,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Married 13-year-old first cousin Myra Gale Brown in 1957, bigamously. Career was briefly destroyed when British press exposed it. He was unapologetic. She was his third wife.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["Great Balls of Fire", "Whole Lotta Shakin' Goin' On", "Breathless"],
+    "summary": "Proto-rock and roll wild man whose piano style was genuinely electrifying and influential on every subsequent rock pianist.",
+    "medium_aura": 0.8,
+    "contamination": 0.3,
+    "separability": 0.65
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1957,
+    "year_of_major_works": [1957, 1958, 1968],
+    "accountability_events": ["1958 British press exposure", "career setback"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Married his 13-year-old cousin while still married to someone else, told the British press about it without apology, and had the audacity to call himself The Killer. She was 13."
+  }
+}

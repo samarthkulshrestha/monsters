@@ -1,0 +1,49 @@
+{
+  "id": "bill-murray",
+  "name": "Bill Murray",
+  "domain": "film",
+  "sub_domain": "Comedy",
+  "portrait": "bill-murray.jpg",
+  "acts": [
+    {
+      "description": "Pattern of aggressive and inappropriate behavior on film sets spanning decades, culminating in formal complaint on Being Mortal (2022)",
+      "severity": 0.55,
+      "victim_count": 5,
+      "duration": 0.8,
+      "reversibility": 0.4,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["coercion"]
+    }
+  ],
+  "behavior_summary": "A production complaint on Being Mortal (2022) shut down the film. Multiple accounts of aggressive, boundary-violating behavior on sets over decades — a pattern enabled by his untouchable star status.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.35,
+    "consistency": 0.65
+  },
+  "art": {
+    "significance": 8,
+    "influence": 8,
+    "replaceability": 4,
+    "notable_works": ["Groundhog Day", "Lost in Translation", "Ghostbusters"],
+    "summary": "Singular comic presence who evolved into a legitimate dramatic actor. One of the most beloved performers of his generation.",
+    "medium_aura": 0.8,
+    "contamination": 0.1,
+    "separability": 0.85
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2022,
+    "year_of_major_works": [1984, 1993, 2003],
+    "accountability_events": ["2022 production complaint on Being Mortal"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Everyone knew, everyone made excuses, and the persona of lovable rogue did exactly what it was designed to do: insulate him from consequences. Still charming, still problematic."
+  }
+}

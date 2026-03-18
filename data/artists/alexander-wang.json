@@ -1,0 +1,49 @@
+{
+  "id": "alexander-wang",
+  "name": "Alexander Wang",
+  "domain": "fashion",
+  "sub_domain": "Design",
+  "portrait": "alexander-wang.jpg",
+  "acts": [
+    {
+      "description": "Multiple men accused him of drugging and sexually assaulting them at parties and events",
+      "severity": 0.95,
+      "victim_count": 7,
+      "duration": 0.7,
+      "reversibility": 0.9,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.5,
+      "victim_vulnerability": 0.85,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation", "coercion"]
+    }
+  ],
+  "behavior_summary": "At least seven men publicly accused him of drugging and sexual assault at industry events. He denied all claims. No criminal charges were filed.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.85
+  },
+  "art": {
+    "significance": 7,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["Wang AW Collections", "T by Alexander Wang"],
+    "summary": "Influential fashion designer who defined downtown cool and sportswear-luxury crossover for a generation.",
+    "medium_aura": 0.55,
+    "contamination": 0.2,
+    "separability": 0.75
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2012,
+    "year_of_major_works": [2007, 2013, 2019],
+    "accountability_events": ["2021 accusations went public"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Built a brand on cool effortlessness while, according to multiple accusers, drugging men and assaulting them. The clothes remain. So does he."
+  }
+}

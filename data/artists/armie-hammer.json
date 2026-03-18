@@ -1,0 +1,49 @@
+{
+  "id": "armie-hammer",
+  "name": "Armie Hammer",
+  "domain": "film",
+  "sub_domain": "Acting",
+  "portrait": "armie-hammer.jpg",
+  "acts": [
+    {
+      "description": "Multiple women released DMs in which he described cannibalistic fantasies and desires; one woman alleged rape",
+      "severity": 0.9,
+      "victim_count": 4,
+      "duration": 0.5,
+      "reversibility": 0.8,
+      "power_differential": 0.85,
+      "relationship_proximity": 0.75,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["bodily_autonomy", "coercion", "violence"]
+    }
+  ],
+  "behavior_summary": "DMs describing cannibalistic and violent sexual fantasies were leaked in 2021. One woman alleged rape. No criminal charges were filed. Career evaporated entirely.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.15,
+    "consistency": 0.8
+  },
+  "art": {
+    "significance": 5,
+    "influence": 4,
+    "replaceability": 7,
+    "notable_works": ["Call Me by Your Name", "The Social Network", "The Man from U.N.C.L.E."],
+    "summary": "Promising leading man who seemed destined for major stardom before everything collapsed. His career is effectively over.",
+    "medium_aura": 0.5,
+    "contamination": 0.3,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": false,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2017,
+    "year_of_major_works": [2010, 2017, 2015],
+    "accountability_events": ["2021 DM leaks", "2021 rape allegation", "career ended"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Sent women messages describing wanting to eat them, and not in the fun way. One of them said he raped her. He is currently selling timeshares in the Cayman Islands. We are not making this up."
+  }
+}

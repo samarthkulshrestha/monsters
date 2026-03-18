@@ -1,0 +1,60 @@
+{
+  "id": "luc-besson",
+  "name": "Luc Besson",
+  "domain": "film",
+  "sub_domain": "Directing",
+  "portrait": "luc-besson.jpg",
+  "acts": [
+    {
+      "description": "Impregnated actress Maïwenn Le Besco when she was 15 and he was 32; they married when she turned 18",
+      "severity": 0.95,
+      "victim_count": 1,
+      "duration": 0.5,
+      "reversibility": 0.9,
+      "power_differential": 0.95,
+      "relationship_proximity": 0.9,
+      "victim_vulnerability": 1.0,
+      "categorical_violations": ["acts_against_children", "sexual_exploitation", "coercion"]
+    },
+    {
+      "description": "Multiple rape and sexual assault accusations from actresses and collaborators",
+      "severity": 0.9,
+      "victim_count": 6,
+      "duration": 0.6,
+      "reversibility": 0.85,
+      "power_differential": 0.9,
+      "relationship_proximity": 0.6,
+      "victim_vulnerability": 0.7,
+      "categorical_violations": ["bodily_autonomy", "sexual_exploitation"]
+    }
+  ],
+  "behavior_summary": "Began relationship with actress Maïwenn Le Besco when she was 15, getting her pregnant. Multiple later rape accusations. Charges in France were dropped due to statute of limitations.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.1,
+    "consistency": 0.9
+  },
+  "art": {
+    "significance": 7,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["Léon: The Professional", "The Fifth Element", "La Femme Nikita"],
+    "summary": "Major French action auteur. Léon: The Professional is darkly ironic to revisit given the subject matter.",
+    "medium_aura": 0.55,
+    "contamination": 0.65,
+    "separability": 0.3
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 1987,
+    "year_of_major_works": [1990, 1994, 1997],
+    "accountability_events": ["2018 rape accusations", "charges dropped due to statute of limitations"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Made Léon: The Professional, a film about a grown man's inappropriate relationship with a 12-year-old girl, while in a relationship with a 15-year-old. Art imitates life a little too closely here."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "johnny-depp",
+  "name": "Johnny Depp",
+  "domain": "film",
+  "sub_domain": "Acting",
+  "portrait": "johnny-depp.jpg",
+  "acts": [
+    {
+      "description": "UK High Court found he had assaulted Amber Heard on multiple occasions; US jury found Heard defamed him",
+      "severity": 0.7,
+      "victim_count": 1,
+      "duration": 0.4,
+      "reversibility": 0.6,
+      "power_differential": 0.75,
+      "relationship_proximity": 1.0,
+      "victim_vulnerability": 0.55,
+      "categorical_violations": ["violence", "bodily_autonomy"]
+    }
+  ],
+  "behavior_summary": "UK court ruled he was a domestic abuser (of at least 12 incidents). US jury found Heard had defamed him. Both findings can be true simultaneously. Relationship appeared mutually toxic and violent.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.3,
+    "consistency": 0.6
+  },
+  "art": {
+    "significance": 7,
+    "influence": 7,
+    "replaceability": 5,
+    "notable_works": ["Edward Scissorhands", "Fear and Loathing in Las Vegas", "Pirates of the Caribbean"],
+    "summary": "Character actor who became one of the biggest stars in the world. Range is real; so are the legal findings.",
+    "medium_aura": 0.7,
+    "contamination": 0.25,
+    "separability": 0.7
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2015,
+    "year_of_major_works": [1990, 1998, 2003],
+    "accountability_events": ["2020 UK libel loss", "2022 US defamation verdict for Depp"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "A UK court found he abused her. A US jury found she defamed him. The internet chose a side before either verdict and hasn't reconsidered. Maybe sit with the complexity for once."
+  }
+}

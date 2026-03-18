@@ -1,0 +1,49 @@
+{
+  "id": "alice-walker",
+  "name": "Alice Walker",
+  "domain": "literature",
+  "sub_domain": "Fiction/Poetry",
+  "portrait": "alice-walker.jpg",
+  "acts": [
+    {
+      "description": "Publicly endorsed David Icke's antisemitic conspiracy book in a 2018 New York Times interview",
+      "severity": 0.6,
+      "victim_count": 5,
+      "duration": 0.4,
+      "reversibility": 0.3,
+      "power_differential": 0.6,
+      "relationship_proximity": 0.1,
+      "victim_vulnerability": 0.5,
+      "categorical_violations": ["hate_speech"]
+    }
+  ],
+  "behavior_summary": "In a 2018 New York Times interview, Alice Walker recommended David Icke's antisemitic conspiracy text. She has not fully recanted.",
+  "sources": [],
+  "character": {
+    "virtue_score": 0.4,
+    "consistency": 0.5
+  },
+  "art": {
+    "significance": 9,
+    "influence": 9,
+    "replaceability": 3,
+    "notable_works": ["The Color Purple", "Meridian", "In Search of Our Mothers' Gardens"],
+    "summary": "Pulitzer-winning novelist and civil rights essayist. The Color Purple is one of the most important American novels of the 20th century.",
+    "medium_aura": 0.85,
+    "contamination": 0.1,
+    "separability": 0.9
+  },
+  "modifiers": {
+    "alive_and_profiting": true,
+    "victims_in_process": false
+  },
+  "temporal": {
+    "year_of_primary_act": 2018,
+    "year_of_major_works": [1982, 1989, 1970],
+    "accountability_events": ["2018 antisemitic book endorsement in NYT"]
+  },
+  "verdict": {
+    "score": null,
+    "blurb": "Wrote The Color Purple. Later told the New York Times that a virulently antisemitic conspiracy theorist had helped her understand the world. The art doesn't know what the author believes."
+  }
+}
