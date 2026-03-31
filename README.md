@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Monsters Calculator
+
+Should you consume the art of terrible people? We did the math, so you don't have to. (You're welcome.) (You're not forgiven.)
+
+Inspired by Claire Dederer's *Monsters: A Fan's Dilemma*.
+
+## What is this?
+
+A tongue-in-cheek web app that scores whether you should consume art made by morally problematic artists. Each artist is assessed through four ethical frameworks (consequentialism, deontology, virtue ethics, care ethics), art theory (Barthes, Gaut, Benjamin), and calculus-based dynamics (moral decay, accountability ODEs, Dederer's "stain" function) to produce a **Consumability Index** from 0 to 100.
+
+The math is genuinely grounded in philosophy. The tone is not.
+
+## The Scoring Model
+
+The Consumability Index is computed from:
+
+- **Consequentialist harm** — utilitarian sum with logarithmic victim scaling and sigmoid normalization
+- **Deontological thresholds** — Kantian categorical imperatives that create hard caps (some things are just wrong)
+- **Virtue ethics** — whole-character assessment weighted by behavioral consistency
+- **Care ethics** — power differential, relationship proximity, victim vulnerability
+- **The Stain** (Dederer) — `1 - e^(-k * severity)`, a saturating function that never fully washes out
+- **Temporal decay** — logarithmic, not exponential. Old sins fade, but slowly.
+- **Accountability ODE** — moral debt decays naturally but is actively reduced by genuine restitution
+- **Art theory modifiers** — separability (Barthes vs Gaut), contamination, medium aura (Benjamin)
+
+See `docs/superpowers/specs/2026-03-14-monsters-calculator-design.md` for the full spec.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev        # dev server
+npm run build      # static export to out/
+npm test           # run tests
+npm run test:watch # watch mode
+```
 
-## Learn More
+## Adding an Artist
 
-To learn more about Next.js, take a look at the following resources:
+1. Create a JSON file in `data/artists/` following the schema (see any existing file for reference)
+2. Add a portrait to `public/portraits/` matching the artist's `portrait` field
+3. Run `npm run build` — the score is computed at build time
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js** (App Router, static export)
+- **TypeScript**
+- **CSS Modules**
+- **Space Mono + Space Grotesk** (Google Fonts)
+- **Vitest** for testing
 
-## Deploy on Vercel
+## Disclaimer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is not moral advice. This is a calculator built by people who read one book and thought, "what if we made this worse?" If you're looking for absolution, you've come to the wrong place. If you're looking for a number to argue about at dinner parties, welcome home.
